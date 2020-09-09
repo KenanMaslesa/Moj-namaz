@@ -870,7 +870,8 @@ margin-bottom: 40px;
 }
 
 #warning_for_prayer .icon {
-float: left;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 #warning_for_prayer .icon i {
@@ -900,7 +901,7 @@ color: #18d26e;
 font-size: 15px;
 line-height: 24px;
 margin-bottom: 0;
-text-align:left;
+text-align:center;
 }
 
 /* Main Hadith Section
