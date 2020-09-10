@@ -120,6 +120,9 @@ padding: 0;
   margin-bottom: 35px;
 
 }
+.justify-content-center{
+  justify-content: none !important;
+}
 
 /* Back to top button */
 .back-to-top {
@@ -211,7 +214,7 @@ padding: 18px 0;
 }
 
 #header .logo {
-font-size: 23px;
+font-size: 30px;
 margin: 0;
 padding: 0;
 line-height: 1;
@@ -253,7 +256,7 @@ display: flex;
 .nav-menu > ul > li {
 position: relative;
 white-space: nowrap;
-padding: 10px 0 10px 17px;
+padding: 10px 0 0px 17px;
 }
 
 .nav-menu a {
