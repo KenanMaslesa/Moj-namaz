@@ -133,6 +133,9 @@ padding: 0;
     max-width: 100%;
     height: auto;
   }
+  .padding{
+    padding:10px 0 0px 10px !important;
+  }
 
 /* Back to top button */
 .back-to-top {
@@ -236,7 +239,7 @@ border-left: 4px solid #18d26e;
 }
 
 #header .logo a {
-color: #fff;
+color: #18d26e;
 }
 
 #header .logo img {
