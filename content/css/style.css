@@ -123,6 +123,8 @@ padding: 0;
 .justify-content-center{
   justify-content: none !important;
 }
+.display-flex{
+  display: block;}
 
 /* Back to top button */
 .back-to-top {
@@ -347,6 +349,15 @@ right: 15px;
 }
 .nav-menu .drop-down .drop-down > a:after {
   content: "\ea9d";
+}
+
+}
+@media (min-width: 1440px){
+.display-flex{
+  display: flex;
+}
+.active{
+  border: none !important;
 }
 }
 
