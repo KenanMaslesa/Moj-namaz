@@ -239,7 +239,7 @@ border-left: 4px solid #18d26e;
 }
 
 #header .logo a {
-color: #18d26e;
+color: #fff;
 }
 
 #header .logo img {
@@ -366,6 +366,9 @@ right: 15px;
 @media (min-width: 1440px){
 .display-flex{
   display: flex;
+}
+#header .logo a{
+  color: #18d26e;
 }
 .left-border{
   border: none !important;
@@ -572,6 +575,9 @@ color: #fff;
 @media (min-width: 1024px) {
 #intro p {
   width: 60%;
+}
+#header .logo a{
+  color: #18d26e;
 }
 }
 
