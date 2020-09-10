@@ -126,6 +126,10 @@ padding: 0;
 .display-flex{
   display: block;}
 
+  .left-border{
+    border-left: 4px solid #18d26e; padding:10px 0 0px 10px;
+  }
+
 /* Back to top button */
 .back-to-top {
 position: fixed;
@@ -356,7 +360,7 @@ right: 15px;
 .display-flex{
   display: flex;
 }
-.active{
+.left-border{
   border: none !important;
 }
 }
