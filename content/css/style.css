@@ -363,13 +363,34 @@ right: 15px;
 }
 
 }
-@media (min-width: 1440px){
+@media (min-width: 2560px){
 .display-flex{
   display: flex;
 }
 
 .left-border{
   border: none !important;
+}
+#hadith {
+  padding: 130px !important;
+  }
+  #hadith p{
+  font-size: 18px !important;
+  }
+  #main_hadith {
+    padding: 150px 0 !important;
+}
+#main_hadith h3{
+  font-size: 33px !important;
+}
+#facts{
+  padding: 200px 0 !important;
+}
+#warning_for_prayer {
+  padding: 100px 0 40px 0px;
+}
+#warning_for_prayer .description {
+  font-size: 18px !important;
 }
 }
 
@@ -509,6 +530,9 @@ position: relative;
 #fajr .description{
   text-align: center;
 }
+#warning_for_prayer .description {
+  text-align: center;
+}
 }
 
 #intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
@@ -561,6 +585,9 @@ font-weight: 700;
 }
 #fajr .description{
   text-align: center;
+}
+#warning_for_prayer .description {
+  text-align: center !important;
 }
 }
 
@@ -757,6 +784,7 @@ content: "/";
 --------------------------------*/
 #hadith {
 background: #000;
+padding: 50px 0px;
 }
 
 #hadith .box {
@@ -933,18 +961,17 @@ color: #18d26e;
 }
 
 #warning_for_prayer .description {
-font-size: 15px;
-line-height: 24px;
+font-size: 16px;
 margin-bottom: 0;
-text-align:center;
+text-align:left;
 }
 
 /* Main Hadith Section
 --------------------------------*/
 #main_hadith {
-background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg2.jpg) fixed center center;
+background: #008f56;
 background-size: cover;
-padding: 60px 0;
+padding: 120px 0;
 }
 
 #main_hadith h3 {
@@ -982,7 +1009,7 @@ border: 2px solid #18d26e;
 #facts {
 background: url("../img/about-bg1.jpg") center top no-repeat fixed;
 background-size: cover;
-padding: 60px 0 60px 0;
+padding: 130px 0;
 position: relative;
 }
 
