@@ -34,9 +34,15 @@ font-weight: 400;
 margin: 0 0 20px 0;
 padding: 0;
 }
+.no-margin{
+  margin: 0px !important;
+}
 .m-t-59{
   margin-top: 59px;
   }
+  .m-t-90{
+    margin-top: 90px;
+    }
   
   .h-350{
   height: 350px;
@@ -49,7 +55,9 @@ padding: 0;
 .center{
   text-align: center;
 }
-
+.padd-307{
+  padding: 0px;
+}
 .col-sm-12{
   width: 92%;
 }
@@ -367,7 +375,9 @@ right: 15px;
 .display-flex{
   display: flex;
 }
-
+.padd-307{
+  padding: 307px 0 307px 0 !important;
+}
 .left-border{
   border: none !important;
 }
@@ -680,7 +690,7 @@ overflow: hidden;
 
 /* Sections Header
 --------------------------------*/
-.section-header h3 {
+.section-header h2 {
 font-size: 32px;
 color: #111;
 text-transform: uppercase;
@@ -690,7 +700,7 @@ position: relative;
 padding-bottom: 15px;
 }
 
-.section-header h3::before {
+.section-header h2::before {
 content: '';
 position: absolute;
 display: block;
@@ -701,7 +711,7 @@ bottom: 1px;
 left: calc(50% - 60px);
 }
 
-.section-header h3::after {
+.section-header h2::after {
 content: '';
 position: absolute;
 display: block;
