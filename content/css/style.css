@@ -144,7 +144,9 @@ padding: 0;
   .padding{
     padding:10px 0 0px 10px !important;
   }
- 
+ .fa:focus{
+   outline: none !important;
+ }
 /* Back to top button */
 .back-to-top {
 position: fixed;
