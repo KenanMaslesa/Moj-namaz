@@ -594,6 +594,15 @@ font-weight: 700;
 #intro h2 {
   font-size: 28px;
 }
+.p-xl-1{
+  width: 100% !important;
+}
+#countdown{
+font-size: 65px !important;
+}
+#city-wrapper{
+  font-size: 40px !important;
+}
 .video-naslovna{
   height: 300x !important;
 }
@@ -1364,4 +1373,11 @@ margin-top: -10px;
 
 .active-time{
   background: rgb(24, 210, 110) !important;
+}
+
+.p-xl-1{
+  width: 40%;
+}
+#city-wrapper{
+  font-size: 60px;
 }
