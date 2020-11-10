@@ -597,6 +597,10 @@ font-weight: 700;
 .p-xl-1{
   width: 100% !important;
 }
+#location-wrapper{
+  border-radius: unset !important;
+  padding-top: 4px;
+}
 #countdown{
 font-size: 65px !important;
 }
