@@ -1351,4 +1351,17 @@ color: #ddd;
   line-height: 24px;
   margin-bottom: 0;
 }
+.time-card{
+  transition: all .5s ease;
+}
+.time-card:hover{
+margin-top: -10px;
 
+}
+#location li a{
+  color: gray;
+}
+
+.active-time{
+  background: rgb(24, 210, 110) !important;
+}
