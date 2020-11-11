@@ -1,1 +1,145 @@
-var _0x3f41 = ['value', 'send', 'setItem', 'removeClass', '#locations\x20option[value=', 'lokacija', 'countdown', 'indexOf', '\x20/\x20', '#izlazak_v', 'open', 'floor', 'https://api.vaktija.ba/vaktija/v1/', 'Error\x20', '#ikindija_s', 'datum', 'getItem', '#aksam_s', 'setSeconds', 'substring', 'Greška\x20u\x20komunikaciji\x20sa\x20serverom', '#ikindija_v', 'responseText', 'status', 'innerHTML', 'prop', 'location', 'onload', 'setMinutes', 'parse', 'vakat', '#podne_s', 'active-time', '#city', 'setDate', 'GET', 'html', 'onerror', 'getTime', 'addClass', '#date', 'statusText', 'getDate', 'getElementById', '#jacija_s', '#jacija_v']; (function (_0x4f7704, _0x3f4194) { var _0x5e21c9 = function (_0x4c0ee9) { while (--_0x4c0ee9) { _0x4f7704['push'](_0x4f7704['shift']()); } }; _0x5e21c9(++_0x3f4194); }(_0x3f41, 0xc5)); var _0x5e21 = function (_0x4f7704, _0x3f4194) { _0x4f7704 = _0x4f7704 - 0x0; var _0x5e21c9 = _0x3f41[_0x4f7704]; return _0x5e21c9; }; var _0x2734b2 = _0x5e21, zora, izlazak_sunca, podne, ikindija, aksam, jacija, sati, minute, countDownDate = new Date(); window[_0x2734b2('0xe')] = function () { var _0x2856ea = _0x2734b2; if (localStorage[_0x2856ea('0x3')](_0x2856ea('0xd')) === null) localStorage[_0x2856ea('0x23')](_0x2856ea('0xd'), 0x4d); else var _0x4c0ee9 = localStorage[_0x2856ea('0x3')](_0x2856ea('0xd')), _0x4499c9 = $(_0x2856ea('0x25') + _0x4c0ee9 + ']')[_0x2856ea('0xc')]('selected', !![]); }; function getPoziv(_0x33f649, _0x78ba59) { var _0x496f3e = _0x2734b2, _0x1415a5 = new XMLHttpRequest(); _0x1415a5['onload'] = function () { var _0x298882 = _0x5e21; _0x1415a5[_0x298882('0xa')] == 0xc8 ? _0x33f649(JSON[_0x298882('0x10')](_0x1415a5[_0x298882('0x9')])) : alert(_0x298882('0x0') + _0x1415a5[_0x298882('0x1c')]); }, _0x1415a5[_0x496f3e('0x18')] = function () { var _0x5cc6b8 = _0x496f3e; alert(_0x5cc6b8('0x7')); }, _0x1415a5[_0x496f3e('0x2b')](_0x496f3e('0x16'), _0x78ba59, !![]), _0x1415a5[_0x496f3e('0x22')](null); } urlGetVaktija = _0x2734b2('0x2d') + localStorage[_0x2734b2('0x3')](_0x2734b2('0xd')), getPoziv(ucitajPodatke, urlGetVaktija); function ucitajPodatke(_0x5c31d6) { var _0x41179b = _0x2734b2; zora = _0x5c31d6[_0x41179b('0x11')][0x0], izlazak_sunca = _0x5c31d6[_0x41179b('0x11')][0x1], podne = _0x5c31d6[_0x41179b('0x11')][0x2], ikindija = _0x5c31d6[_0x41179b('0x11')][0x3], aksam = _0x5c31d6[_0x41179b('0x11')][0x4], jacija = _0x5c31d6[_0x41179b('0x11')][0x5], $(_0x41179b('0x1f'))[_0x41179b('0x1a')](_0x41179b('0x13')), sati = zora[_0x41179b('0x6')](0x0, zora[_0x41179b('0x28')](':')), minute = zora['substring'](zora['indexOf'](':') + 0x1), countDownDate['setHours'](sati), countDownDate[_0x41179b('0xf')](minute), countDownDate[_0x41179b('0x5')](0x0), $(_0x41179b('0x14'))['html'](_0x5c31d6[_0x41179b('0x26')]), $(_0x41179b('0x1b'))[_0x41179b('0x17')](_0x5c31d6[_0x41179b('0x2')][0x1] + _0x41179b('0x29') + _0x5c31d6['datum'][0x0]), $('#zora_v')[_0x41179b('0x17')](zora), $(_0x41179b('0x2a'))[_0x41179b('0x17')](izlazak_sunca), $('#podne_v')[_0x41179b('0x17')](podne), $(_0x41179b('0x8'))[_0x41179b('0x17')](ikindija), $('#aksam_v')[_0x41179b('0x17')](aksam), $(_0x41179b('0x20'))[_0x41179b('0x17')](jacija); } function setSati(_0x263146) { var _0x316765 = _0x2734b2; sati = _0x263146['substring'](0x0, _0x263146[_0x316765('0x28')](':')), countDownDate['setHours'](sati); } function setMinute(_0x5cc148) { var _0x1688a9 = _0x2734b2; minute = _0x5cc148[_0x1688a9('0x6')](_0x5cc148[_0x1688a9('0x28')](':') + 0x1), countDownDate[_0x1688a9('0xf')](minute); } function setAll(_0x325919) { var _0x17805b = _0x2734b2; new Date()['getTime']() >= countDownDate[_0x17805b('0x19')]() && (setSati(izlazak_sunca), setMinute(izlazak_sunca), $(_0x17805b('0x1f'))[_0x17805b('0x24')](_0x17805b('0x13')), $('#izlazak_s')[_0x17805b('0x1a')](_0x17805b('0x13'))), new Date()['getTime']() >= countDownDate[_0x17805b('0x19')]() && (setSati(podne), setMinute(podne), $('#izlazak_s')[_0x17805b('0x24')](_0x17805b('0x13'))), new Date()[_0x17805b('0x19')]() >= countDownDate[_0x17805b('0x19')]() && (setSati(ikindija), setMinute(ikindija), $('#podne_s')[_0x17805b('0x1a')](_0x17805b('0x13'))), new Date()[_0x17805b('0x19')]() >= countDownDate['getTime']() && (setSati(aksam), setMinute(aksam), $(_0x17805b('0x12'))[_0x17805b('0x24')](_0x17805b('0x13')), $(_0x17805b('0x1'))[_0x17805b('0x1a')]('active-time')), new Date()[_0x17805b('0x19')]() >= countDownDate[_0x17805b('0x19')]() && (setSati(jacija), setMinute(jacija), $(_0x17805b('0x1'))[_0x17805b('0x24')](_0x17805b('0x13')), $(_0x17805b('0x4'))[_0x17805b('0x1a')](_0x17805b('0x13'))), new Date()[_0x17805b('0x19')]() >= countDownDate[_0x17805b('0x19')]() && ($(_0x17805b('0x4'))[_0x17805b('0x24')](_0x17805b('0x13')), $(_0x17805b('0x1f'))['addClass'](_0x17805b('0x13')), countDownDate[_0x17805b('0x15')](countDownDate[_0x17805b('0x1d')]() + 0x1), setSati(zora), setMinute(zora)); } function getTime(_0x53e4e6) { return _0x53e4e6 < 0xa ? '0' + _0x53e4e6 : _0x53e4e6; } var x = setInterval(function () { var _0x118535 = _0x2734b2; if (new Date()[_0x118535('0x19')]() > countDownDate) setAll(new Date()[_0x118535('0x19')]()); var _0x275299 = countDownDate - new Date()[_0x118535('0x19')](), _0x49a028 = Math[_0x118535('0x2c')](_0x275299 % (0x3e8 * 0x3c * 0x3c * 0x18) / (0x3e8 * 0x3c * 0x3c)), _0x3db215 = Math[_0x118535('0x2c')](_0x275299 % (0x3e8 * 0x3c * 0x3c) / (0x3e8 * 0x3c)), _0x1beee3 = Math[_0x118535('0x2c')](_0x275299 % (0x3e8 * 0x3c) / 0x3e8); document[_0x118535('0x1e')](_0x118535('0x27'))[_0x118535('0xb')] = getTime(_0x49a028) + ':' + getTime(_0x3db215) + ':' + getTime(_0x1beee3), _0x275299 < 0x0 && (clearInterval(x), document[_0x118535('0x1e')](_0x118535('0x27'))['innerHTML'] = 'EXPIRED'); }, 0x3e8); function GetLocation(_0x86b228) { var _0x1b9051 = _0x2734b2, _0xab6459 = _0x86b228[_0x1b9051('0x21')]; localStorage['setItem'](_0x1b9051('0xd'), _0xab6459), getPoziv(ucitajPodatke, _0x1b9051('0x2d') + _0xab6459); }
+var zora, izlazak_sunca, podne, ikindija, aksam, jacija, sati, minute;
+var countDownDate = new Date();
+window.onload = function () {
+  if (localStorage.getItem("location") === null) {
+    localStorage.setItem("location", 77);
+  }
+  else {
+    var value = localStorage.getItem("location");
+    var x = $('#locations option[value=' + value + ']').prop('selected', true);
+  }
+}
+
+function getPoziv(funk, url) {
+
+  var zahtjev = new XMLHttpRequest();
+  zahtjev.onload = function () {
+    if (zahtjev.status == 200) {
+      funk(JSON.parse(zahtjev.responseText));
+    }
+    else {
+      alert("Error " + zahtjev.statusText);
+    }
+  }
+
+  zahtjev.onerror = function () {
+    alert("Greška u komunikaciji sa serverom");
+  };
+
+  zahtjev.open("GET", url, true);
+  zahtjev.send(null);
+}
+
+urlGetVaktija = 'https://api.vaktija.ba/vaktija/v1/' + localStorage.getItem("location");
+getPoziv(ucitajPodatke, urlGetVaktija);
+
+function ucitajPodatke(obj) {
+  zora = obj.vakat[0];
+  izlazak_sunca = obj.vakat[1];
+  podne = obj.vakat[2];
+  ikindija = obj.vakat[3];
+  aksam = obj.vakat[4];
+  jacija = obj.vakat[5];
+
+  $("#jacija_s").addClass("active-time");
+
+  sati = zora.substring(0, zora.indexOf(":"));
+  minute = zora.substring(zora.indexOf(":") + 1);
+  countDownDate.setHours(sati);
+  countDownDate.setMinutes(minute);
+
+  $("#city").html(obj.lokacija);
+  $("#date").html(obj.datum[1] + " / " + obj.datum[0]);
+  $("#zora_v").html(zora);
+  $("#izlazak_v").html(izlazak_sunca);
+  $("#podne_v").html(podne);
+  $("#ikindija_v").html(ikindija);
+  $("#aksam_v").html(aksam);
+  $("#jacija_v").html(jacija);
+
+}
+
+function setSati(s) {
+  sati = s.substring(0, s.indexOf(":"));
+  countDownDate.setHours(sati);
+}
+function setMinute(m) {
+  minute = m.substring(m.indexOf(":") + 1);
+  countDownDate.setMinutes(minute);
+
+}
+function setAll(now) {
+  if (now >= countDownDate.getTime()) {
+    setSati(izlazak_sunca);
+    setMinute(izlazak_sunca);
+    $("#jacija_s").removeClass("active-time");
+    $("#izlazak_s").addClass("active-time");
+  }
+  if (now >= countDownDate.getTime()) {
+    setSati(podne);
+    setMinute(podne);
+    $("#izlazak_s").removeClass("active-time");
+  }
+
+  if (now >= countDownDate.getTime()) {
+
+    setSati(ikindija);
+    setMinute(ikindija);
+    $("#podne_s").addClass("active-time");
+
+  }
+
+  if (now >= countDownDate.getTime()) {
+
+    setSati(aksam);
+    setMinute(aksam);
+    $("#podne_s").removeClass("active-time");
+    $("#ikindija_s").addClass("active-time");
+
+  }
+  if (now >= countDownDate.getTime()) {
+    setSati(jacija);
+    setMinute(jacija);
+    $("#ikindija_s").removeClass("active-time");
+    $("#aksam_s").addClass("active-time");
+
+  }
+  if (now >= countDownDate.getTime()) {
+    $("#aksam_s").removeClass("active-time");
+    $("#jacija_s").addClass("active-time");
+    countDownDate.setDate(countDownDate.getDate() + 1);
+    setSati(zora);
+    setMinute(zora);
+
+  }
+
+}
+function getTime(h) {
+  return h < 10 ? "0" + h : h;
+}
+var x = setInterval(function () {
+
+  var now2 = new Date();
+  now2 = now2.getTime();
+  if (now2 > countDownDate)
+    setAll(now2);
+  var distance = countDownDate - now2;
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  //var sekundeX = (minutes * 60) + (hours * 3600) + seconds;
+
+  document.getElementById("countdown").innerHTML = getTime(hours) + ":"
+    + getTime(minutes) + ":" + getTime(seconds);
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+function GetLocation(selected) {
+  var val = selected.value;
+  localStorage.setItem("location", val);
+  getPoziv(ucitajPodatke, 'https://api.vaktija.ba/vaktija/v1/' + val);
+}
