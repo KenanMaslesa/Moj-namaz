@@ -42,7 +42,7 @@ function ucitajPodatke(obj) {
   aksam = obj.vakat[4];
   jacija = obj.vakat[5];
 
-  $("#jacija_s").css('background', '#18d26e');
+  $("#jacija_s").addClass("active-time");
 
   sati = zora.substring(0, zora.indexOf(":"));
   minute = zora.substring(zora.indexOf(":") + 1);
@@ -74,10 +74,12 @@ function setAll(now) {
     setSati(izlazak_sunca);
     setMinute(izlazak_sunca);
     $("#jacija_s").removeClass("active-time");
+    $("#izlazak_s").addClass("active-time");
   }
   if (now >= countDownDate.getTime()) {
     setSati(podne);
     setMinute(podne);
+    $("#jacija_s").removeClass("active-time");
   }
 
   if (now >= countDownDate.getTime()) {
