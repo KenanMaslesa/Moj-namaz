@@ -47,6 +47,7 @@ function ucitajPodatke(obj) {
   minute = zora.substring(zora.indexOf(":") + 1);
   countDownDate.setHours(sati);
   countDownDate.setMinutes(minute);
+  countDownDate.setSeconds(0);
 
   $("#city").html(obj.lokacija);
   $("#date").html(obj.datum[1] + " / " + obj.datum[0]);
