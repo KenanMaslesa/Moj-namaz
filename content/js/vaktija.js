@@ -29,8 +29,11 @@ function getPoziv(funk, url) {
   zahtjev.open("GET", url, true);
   zahtjev.send(null);
 }
+if (localStorage.getItem("location") == null)
+  urlGetVaktija = 'https://api.vaktija.ba/vaktija/v1/77';
+else
+  urlGetVaktija = 'https://api.vaktija.ba/vaktija/v1/' + localStorage.getItem("location");
 
-urlGetVaktija = 'https://api.vaktija.ba/vaktija/v1/' + localStorage.getItem("location");
 getPoziv(ucitajPodatke, urlGetVaktija);
 
 function ucitajPodatke(obj) {
