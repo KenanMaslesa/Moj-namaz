@@ -79,7 +79,7 @@ function setAll(now) {
   if (now >= countDownDate.getTime()) {
     setSati(podne);
     setMinute(podne);
-    $("#jacija_s").removeClass("active-time");
+    $("#izlazak_s").removeClass("active-time");
   }
 
   if (now >= countDownDate.getTime()) {
