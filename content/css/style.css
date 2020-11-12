@@ -1420,4 +1420,5 @@ margin-top: -10px;
 }
 .background-black{
   background: black;
+  transition: background-color 0.5s ease;
 }
