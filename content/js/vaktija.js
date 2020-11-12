@@ -83,6 +83,7 @@ function setMinute(m) {
 
 }
 function setAll(now) {
+  let athan = document.getElementById("athan"); 
   if (now >= countDownDate.getTime()) {
     setSati(izlazak_sunca);
     setMinute(izlazak_sunca);
@@ -92,6 +93,8 @@ function setAll(now) {
     $("#zora_s").addClass("active-time");
     $("#zora_n").addClass("active-time");
     $("#zora_v").addClass("active-time");
+    athan.play();
+
   }
   if (now >= countDownDate.getTime()) {
     setSati(podne);
@@ -102,6 +105,8 @@ function setAll(now) {
     $("#izlazak_s").addClass("active-time");
     $("#izlazak_n").addClass("active-time");
     $("#izlazak_v").addClass("active-time");
+    athan.play();
+
   }
 
   if (now >= countDownDate.getTime()) {
@@ -114,6 +119,8 @@ function setAll(now) {
     $("#podne_s").addClass("active-time");
     $("#podne_n").addClass("active-time");
     $("#podne_v").addClass("active-time");
+    athan.play();
+
 
   }
 
@@ -127,6 +134,8 @@ function setAll(now) {
     $("#ikindija_s").addClass("active-time");
     $("#ikindija_n").addClass("active-time");
     $("#ikindija_v").addClass("active-time");
+    athan.play();
+
 
   }
   if (now >= countDownDate.getTime()) {
@@ -138,6 +147,8 @@ function setAll(now) {
     $("#aksam_s").addClass("active-time");
     $("#aksam_n").addClass("active-time");
     $("#aksam_v").addClass("active-time");
+    athan.play();
+
 
   }
   if (now >= countDownDate.getTime()) {
@@ -147,6 +158,8 @@ function setAll(now) {
     $("#jacija_s").addClass("active-time");
     $("#jacija_n").addClass("active-time");
     $("#jacija_v").addClass("active-time");
+    athan.play();
+
     countDownDate.setDate(countDownDate.getDate() + 1);
     setSati(zora);
     setMinute(zora);
@@ -158,18 +171,29 @@ function getTime(h) {
   return h < 10 ? "0" + h : h;
 }
 var x = setInterval(function () {
-
   var now2 = new Date();
-  now2.setHours(17);
-  now2.setMinutes(58);
   now2 = now2.getTime();
-  if (now2 > countDownDate)
+  if (now2 >= countDownDate)
     setAll(now2);
   var distance = countDownDate - now2;
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  var warning = document.getElementById("warning-sound"); 
+  if (hours == 0 && minutes <= 10 && seconds == 0)
+   { 
+     $("#countdown").css("color", "red");
+     $("#countdown").css("font-size", "100px");
+     warning.play();
+    warning.play();
+  }
+  if(hours == 0 && minutes == 10 && seconds == 0)
+  {
+    warning.play();
+    warning.play();
+  }
+  
   document.getElementById("countdown").innerHTML = getTime(hours) + ":"
     + getTime(minutes) + ":" + getTime(seconds);
 
