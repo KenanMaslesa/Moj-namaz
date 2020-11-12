@@ -83,7 +83,8 @@ function setMinute(m) {
 
 }
 function setAll(now) {
-  let athan = document.getElementById("athan"); 
+  let athan = document.getElementById("athan");
+  athan.play();
   if (now >= countDownDate.getTime()) {
     setSati(izlazak_sunca);
     setMinute(izlazak_sunca);
@@ -180,20 +181,18 @@ var x = setInterval(function () {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  var warning = document.getElementById("warning-sound"); 
-  if (hours == 0 && minutes <= 10 && seconds == 0)
-   { 
-     $("#countdown").css("color", "red");
-     $("#countdown").css("font-size", "100px");
-     warning.play();
-    warning.play();
-  }
-  if(hours == 0 && minutes == 10 && seconds == 0)
-  {
+  var warning = document.getElementById("warning-sound");
+  if (hours == 0 && minutes <= 10 && seconds == 0) {
+    $("#countdown").css("color", "red");
+    $("#countdown").css("font-size", "100px");
     warning.play();
     warning.play();
   }
-  
+  if (hours == 0 && minutes == 10 && seconds == 0) {
+    warning.play();
+    warning.play();
+  }
+
   document.getElementById("countdown").innerHTML = getTime(hours) + ":"
     + getTime(minutes) + ":" + getTime(seconds);
 
