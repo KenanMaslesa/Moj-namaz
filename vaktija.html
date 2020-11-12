@@ -78,12 +78,17 @@
 
   <main id="main">
 
-    <section class="frame padd-307" style="padding:85px 0 350px 0">
-      <div class="container text-center" data-aos="fade-up">
-
+    <section class="frame padd-307" style="padding:85px 0 65px 0">
+      <div class="container text-center" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+        data-aos-offset="0">
         <section>
+          <div id="ayat_prayer_time">
+            <h2>"Vjernicima je propisano da u određeno vrijeme namaz
+              obavljaju.” </h2>
+            <span>(En-Nisa', 103.)</span>
+          </div>
 
-          <div id="countdown" style="text-align:center; font-size: 70px; margin-top: 35px;"></div>
+          <div id="countdown" style="text-align:center; font-size: 70px; margin-top: 35px;">00:00:00</div>
           <div class="row">
             <div id="city-wrapper" style="text-align: center;padding: 10px;">
               <span id="city"></span>
@@ -93,7 +98,7 @@
                 style="margin-left: auto; margin-right: auto; margin-top: 10px;  margin-bottom: 10px;">
                 <div class="col text-center mr-2">
                   <div class="d-md-flex justify-content-center align-items-center" id="location-wrapper"
-                    style="background: rgb(24, 210, 110); border-radius: 55px;">
+                    style="background: rgb(24, 210, 110); border-radius: 55px; padding: 10px;">
                     <h5 class="text-white text-center mb-0">Odaberite drugu lokaciju:</h5>
                     <div class="p-xl-2">
                       <select class="form-control" id="locations"
@@ -223,8 +228,13 @@
               </div>
             </div>
 
-            <div id="date" style="text-align: center;font-size: 18px;margin-bottom: 30px;"></div>
-            <class class="row justify-content-center align-items-center">
+            <div id="date-wrapper" style="text-align: center;font-size: 18px;margin-bottom: 30px;">
+              <span id="date1">12:12.2019</span>
+              <span id="delimiter">/</span>
+              <span id="date2">31.12.2020</span>
+            </div>
+            <class class="row justify-content-center align-items-center"
+              style="padding-right: 0px !important; padding-left: 22px !important">
               <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card" id="zoraa">
                 <div class="card shadow border-left-success py-2" id="zora_s">
                   <div class="card-body">
@@ -234,9 +244,6 @@
                       </div>
                       <div class="text-dark font-weight-bold h5 mb-0">
                         <span id="zora_v" style="font-size: 30px;"></span>
-                      </div>
-                      <div class="text-dark font-weight-bold h5 mb-0">
-                        <span id="zora" style="font-size: 13px;"></span>
                       </div>
                     </div>
                   </div>
@@ -252,9 +259,6 @@
                       <div class="text-dark font-weight-bold h5 mb-0">
                         <span id="izlazak_v" style="font-size: 30px;"></span>
                       </div>
-                      <div class="text-dark font-weight-bold h5 mb-0">
-                        <span id="izlazak" style="font-size: 13px;"></span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -268,9 +272,6 @@
                       </div>
                       <div class="text-dark font-weight-bold h5 mb-0">
                         <span id="podne_v" style="font-size: 30px;"></span>
-                      </div>
-                      <div class="text-dark font-weight-bold h5 mb-0">
-                        <span id="podne" style="font-size: 13px;"></span>
                       </div>
                     </div>
                   </div>
@@ -286,9 +287,6 @@
                       <div class="text-dark font-weight-bold h5 mb-0">
                         <span id="ikindija_v" style="font-size: 30px;"></span>
                       </div>
-                      <div class="text-dark font-weight-bold h5 mb-0">
-                        <span id="ikindija" style="font-size: 13px;"></span>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -302,9 +300,6 @@
                       </div>
                       <div class="text-dark font-weight-bold h5 mb-0">
                         <span id="aksam_v" style="font-size: 30px;" class="text-w1"></span>
-                      </div>
-                      <div class="text-dark font-weight-bold h5 mb-0">
-                        <span id="aksam" style="font-size: 13px;" class="text-w2"></span>
                       </div>
                     </div>
                   </div>
@@ -320,13 +315,14 @@
                       <div class="text-dark font-weight-bold h5 mb-0">
                         <span id="jacija_v" style="font-size: 30px;"></span>
                       </div>
-                      <div class="text-dark font-weight-bold h5 mb-0">
-                        <span id="jacija" style="font-size: 13px;"></span>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+          </div>
+          <div style="font-size:70px;">
+            <i class="ion-ios-moon" id="dark_theme"></i>
+            <i class="ion-ios-sunny-outline" id="light-theme" style="display: none;"></i>
           </div>
 
       </div>

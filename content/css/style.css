@@ -598,11 +598,22 @@ font-weight: 700;
   width: 100% !important;
 }
 #location-wrapper{
-  border-radius: unset !important;
-  padding-top: 4px;
+  border-radius: 10px !important;
+}
+#date1{
+  display: block;
+}
+#delimiter{
+  display: none;
+}
+#locations{
+  margin-top: 5px;
+}
+#ayat_prayer_time{
+  display: none;
 }
 #countdown{
-font-size: 65px !important;
+font-size: 70px !important;
 }
 #city-wrapper{
   font-size: 40px !important;
@@ -1377,11 +1388,36 @@ margin-top: -10px;
 
 .active-time{
   background: rgb(24, 210, 110) !important;
+  color: white;
 }
-
 .p-xl-1{
   width: 40%;
 }
 #city-wrapper{
   font-size: 60px;
+}
+#currentTime{
+  background: rgb(24, 210, 110) !important;
+    color: white;
+    border-radius: 48px;
+    font-size: 23px;
+    padding: 30px 20px 30px 20px;
+    position: absolute;
+    top: 25px;
+    left: -157px;
+}
+
+#ayat_prayer_time h2{
+  margin-top: 45px; margin-bottom: 4px;
+}
+
+.dark-theme::before{
+  background: none !important;
+}
+
+.color-white{
+  color: white;
+}
+.background-black{
+  background: black;
 }
