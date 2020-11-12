@@ -652,6 +652,9 @@ color: #fff;
     word-break: break-all;
     white-space: normal;
   }
+  .nav-menu > ul > li {
+    padding: 10px 0 0px 10px;
+    }
 
 }
 @media(min-width:1690px) and (max-width:2000px)

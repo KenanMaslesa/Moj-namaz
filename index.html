@@ -58,6 +58,7 @@
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="active left-border padding"><a href="index.html">O namazu</a></li>
+              <li><a href="vaktija.html">Vaktija</a></li>
               <li><a href="uvjeti-za-namaz.html">Uvjeti za ispravnost namaza</a></li>
               <li><a href="kako-klanjati.html">Kako klanjati namaz?</a></li>
               <li><a href="abdest.html">Abdest</a></li>
@@ -363,7 +364,255 @@
 
       </div>
     </section>
+    <section class="frame padd-307" id="vaktija" style="padding:85px 0 65px 0">
+      <div class="container text-center" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+        data-aos-offset="0">
+        <section>
+          <div id="ayat_prayer_time">
+            <h2>"Vjernicima je propisano da u određeno vrijeme namaz
+              obavljaju.” </h2>
+            <span>(En-Nisa', 103.)</span>
+          </div>
 
+          <div id="countdown" style="text-align:center; font-size: 90px; margin-top: 35px;">00:00:00</div>
+          <div class="row">
+            <div id="city-wrapper" style="text-align: center;padding: 10px;">
+              <span id="city"></span>
+
+
+              <div class="card-body p-xl-1"
+                style="margin-left: auto; margin-right: auto; margin-top: 10px;  margin-bottom: 10px;">
+                <div class="col text-center mr-2">
+                  <div class="d-md-flex justify-content-center align-items-center" id="location-wrapper"
+                    style="background: rgb(24, 210, 110); border-radius: 55px; padding: 10px;">
+                    <h5 class="text-white text-center mb-0">Odaberite drugu lokaciju:</h5>
+                    <div class="p-xl-2">
+                      <select class="form-control" id="locations"
+                        onchange="GetLocation(this.options[this.selectedIndex])" type="submit">
+                        <option value="0">Banovići</option>
+                        <option value="1">Banja Luka</option>
+                        <option value="2">Bihać</option>
+                        <option value="3">Bijeljina</option>
+                        <option value="4">Bileća</option>
+                        <option value="5">Bosanski Brod</option>
+                        <option value="6">Bosanska Dubica</option>
+                        <option value="7">Bosanska Gradiška</option>
+                        <option value="8">Bosansko Grahovo</option>
+                        <option value="9">Bosanska Krupa</option>
+                        <option value="10">Bosanski Novi</option>
+                        <option value="11">Bosanski Petrovac</option>
+                        <option value="12">Bosanski Šamac</option>
+                        <option value="13">Bratunac</option>
+                        <option value="14">Brčko</option>
+                        <option value="15">Breza</option>
+                        <option value="16">Bugojno</option>
+                        <option value="17">Busovača</option>
+                        <option value="18">Bužim</option>
+                        <option value="19">Cazin</option>
+                        <option value="20">Čajniče</option>
+                        <option value="21">Čapljina</option>
+                        <option value="22">Čelić</option>
+                        <option value="23">Čelinac</option>
+                        <option value="24">Čitluk</option>
+                        <option value="25">Derventa</option>
+                        <option value="26">Doboj</option>
+                        <option value="27">Donji Vakuf</option>
+                        <option value="28">Drvar</option>
+                        <option value="29">Foča</option>
+                        <option value="30">Fojnica</option>
+                        <option value="31">Gacko</option>
+                        <option value="32">Glamoč</option>
+                        <option value="33">Goražde</option>
+                        <option value="34">Gornji Vakuf</option>
+                        <option value="35">Gračanica</option>
+                        <option value="36">Gradačac</option>
+                        <option value="37">Grude</option>
+                        <option value="38">Hadžići</option>
+                        <option value="39">Han-Pijesak</option>
+                        <option value="41">Ilijaš</option>
+                        <option value="42">Jablanica</option>
+                        <option value="43">Jajce</option>
+                        <option value="44">Kakanj</option>
+                        <option value="45">Kalesija</option>
+                        <option value="46">Kalinovik</option>
+                        <option value="47">Kiseljak</option>
+                        <option value="48">Kladanj</option>
+                        <option value="49">Ključ</option>
+                        <option value="50">Konjic</option>
+                        <option value="51">Kotor-Varoš</option>
+                        <option value="52">Kreševo</option>
+                        <option value="53">Kupres</option>
+                        <option value="54">Laktaši</option>
+                        <option value="40">Livno</option>
+                        <option value="55">Lopare</option>
+                        <option value="56">Lukavac</option>
+                        <option value="57">Ljubinje</option>
+                        <option value="58">Ljubuški</option>
+                        <option value="59">Maglaj</option>
+                        <option value="60">Modriča</option>
+                        <option value="61">Mostar</option>
+                        <option value="62">Mrkonjić-Grad</option>
+                        <option value="63">Neum</option>
+                        <option value="64">Nevesinje</option>
+                        <option value="65">Novi Travnik</option>
+                        <option value="66">Odžak</option>
+                        <option value="67">Olovo</option>
+                        <option value="68">Orašje</option>
+                        <option value="69">Pale</option>
+                        <option value="70">Posušje</option>
+                        <option value="71">Prijedor</option>
+                        <option value="72">Prnjavor</option>
+                        <option value="73">Prozor</option>
+                        <option value="74">Rogatica</option>
+                        <option value="75">Rudo</option>
+                        <option value="76">Sanski Most</option>
+                        <option value="77" selected="selected">Sarajevo</option>
+                        <option value="78">Skender-Vakuf</option>
+                        <option value="79">Sokolac</option>
+                        <option value="80">Srbac</option>
+                        <option value="81">Srebrenica</option>
+                        <option value="82">Srebrenik</option>
+                        <option value="83">Stolac</option>
+                        <option value="84">Šekovići</option>
+                        <option value="85">Šipovo</option>
+                        <option value="86">Široki Brijeg</option>
+                        <option value="87">Teslić</option>
+                        <option value="88">Tešanj</option>
+                        <option value="89">Tomislav-Grad</option>
+                        <option value="90">Travnik</option>
+                        <option value="91">Trebinje</option>
+                        <option value="92">Trnovo</option>
+                        <option value="93">Tuzla</option>
+                        <option value="94">Ugljevik</option>
+                        <option value="95">Vareš</option>
+                        <option value="96">Velika Kladuša</option>
+                        <option value="97">Visoko</option>
+                        <option value="98">Višegrad</option>
+                        <option value="99">Vitez</option>
+                        <option value="100">Vlasenica</option>
+                        <option value="101">Zavidovići</option>
+                        <option value="102">Zenica</option>
+                        <option value="103">Zvornik</option>
+                        <option value="104">Žepa</option>
+                        <option value="105">Žepče</option>
+                        <option value="106">Živinice</option>
+                        <option value="107">Bijelo Polje</option>
+                        <option value="108">Gusinje</option>
+                        <option value="109">Nova Varoš</option>
+                        <option value="110">Novi Pazar</option>
+                        <option value="111">Plav</option>
+                        <option value="112">Pljevlja</option>
+                        <option value="113">Priboj</option>
+                        <option value="114">Prijepolje</option>
+                        <option value="115">Rožaje</option>
+                        <option value="116">Sjenica</option>
+                        <option value="117">Tutin</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="date-wrapper" style="text-align: center;font-size: 18px;margin-bottom: 30px;">
+              <span id="date1">12:12.2019</span>
+              <span id="delimiter">/</span>
+              <span id="date2">31.12.2020</span>
+            </div>
+            <class class="row justify-content-center align-items-center"
+              style="padding-right: 0px !important; padding-left: 22px !important">
+              <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card" id="zoraa">
+                <div class="card shadow border-left-success py-2" id="zora_s">
+                  <div class="card-body">
+                    <div class="col text-center mr-2">
+                      <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
+                        <span id="zora_n">zora</span>
+                      </div>
+                      <div class="text-dark font-weight-bold h5 mb-0">
+                        <span id="zora_v" style="font-size: 30px;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card">
+                <div class="card shadow border-left-success py-2" id="izlazak_s">
+                  <div class="card-body">
+                    <div class="col text-center mr-2">
+                      <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
+                        <span id="izlazak_n">izlazak sunca</span>
+                      </div>
+                      <div class="text-dark font-weight-bold h5 mb-0">
+                        <span id="izlazak_v" style="font-size: 30px;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card">
+                <div class="card shadow border-left-success py-2" id="podne_s">
+                  <div class="card-body">
+                    <div class="col text-center mr-2">
+                      <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
+                        <span id="podne_n">podne</span>
+                      </div>
+                      <div class="text-dark font-weight-bold h5 mb-0">
+                        <span id="podne_v" style="font-size: 30px;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card">
+                <div class="card shadow border-left-success py-2" id="ikindija_s">
+                  <div class="card-body">
+                    <div class="col text-center mr-2">
+                      <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
+                        <span id="ikindija_n">ikindija</span>
+                      </div>
+                      <div class="text-dark font-weight-bold h5 mb-0">
+                        <span id="ikindija_v" style="font-size: 30px;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card">
+                <div class="card shadow border-left-success py-2 prayer-active" id="aksam_s">
+                  <div class="card-body">
+                    <div class="col text-center mr-2">
+                      <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
+                        <span id="aksam_n" class="text-w">akšam</span>
+                      </div>
+                      <div class="text-dark font-weight-bold h5 mb-0">
+                        <span id="aksam_v" style="font-size: 30px;" class="text-w1"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-2 mb-2 p-0-25 time-card">
+                <div class="card shadow border-left-success py-2" id="jacija_s">
+                  <div class="card-body">
+                    <div class="col text-center mr-2">
+                      <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
+                        <span id="jacija_n">jacija</span>
+                      </div>
+                      <div class="text-dark font-weight-bold h5 mb-0">
+                        <span id="jacija_v" style="font-size: 30px;"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div style="font-size:70px;">
+            <i class="ion-ios-moon" id="dark_theme"></i>
+            <i class="ion-ios-sunny-outline" id="light-theme" style="display: none;"></i>
+          </div>
+
+      </div>
+    </section>
     <section id="warning_for_prayer" class="frame">
       <div class="container" data-aos="fade-up">
 
@@ -512,7 +761,9 @@
   <script src="content/mix/aos/aos.js"></script>
 
   <script src="content/js/main.js"></script>
+  <script src="content/js/vaktija.js"></script>
 
+  
 </body>
 
 </html>

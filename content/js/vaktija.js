@@ -83,7 +83,6 @@ function setMinute(m) {
 
 }
 function setAll(now) {
-  let athan = document.getElementById("athan");
   if (now >= countDownDate.getTime()) {
     setSati(izlazak_sunca);
     setMinute(izlazak_sunca);
@@ -93,7 +92,6 @@ function setAll(now) {
     $("#zora_s").addClass("active-time");
     $("#zora_n").addClass("active-time");
     $("#zora_v").addClass("active-time");
-    athan.play();
 
   }
   if (now >= countDownDate.getTime()) {
@@ -105,8 +103,6 @@ function setAll(now) {
     $("#izlazak_s").addClass("active-time");
     $("#izlazak_n").addClass("active-time");
     $("#izlazak_v").addClass("active-time");
-    athan.play();
-
   }
 
   if (now >= countDownDate.getTime()) {
@@ -119,8 +115,6 @@ function setAll(now) {
     $("#podne_s").addClass("active-time");
     $("#podne_n").addClass("active-time");
     $("#podne_v").addClass("active-time");
-    athan.play();
-
 
   }
 
@@ -134,8 +128,6 @@ function setAll(now) {
     $("#ikindija_s").addClass("active-time");
     $("#ikindija_n").addClass("active-time");
     $("#ikindija_v").addClass("active-time");
-    athan.play();
-
 
   }
   if (now >= countDownDate.getTime()) {
@@ -147,7 +139,6 @@ function setAll(now) {
     $("#aksam_s").addClass("active-time");
     $("#aksam_n").addClass("active-time");
     $("#aksam_v").addClass("active-time");
-    athan.play();
 
 
   }
@@ -158,7 +149,6 @@ function setAll(now) {
     $("#jacija_s").addClass("active-time");
     $("#jacija_n").addClass("active-time");
     $("#jacija_v").addClass("active-time");
-    athan.play();
 
     countDownDate.setDate(countDownDate.getDate() + 1);
     setSati(zora);
@@ -179,18 +169,9 @@ var x = setInterval(function () {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  let athan = document.getElementById("athan");
-  athan.play();
-  var warning = document.getElementById("warning-sound");
   if (hours == 0 && minutes <= 10 && seconds == 0) {
     $("#countdown").css("color", "red");
     $("#countdown").css("font-size", "100px");
-    warning.play();
-    warning.play();
-  }
-  if (hours == 0 && minutes == 10 && seconds == 0) {
-    warning.play();
-    warning.play();
   }
 
   document.getElementById("countdown").innerHTML = getTime(hours) + ":"
@@ -210,24 +191,24 @@ function GetLocation(selected) {
 function DarkTheme() {
   $("#dark_theme").hide();
   $("#light-theme").show();
-  $(".frame").addClass("background-black");
-  $(".frame").addClass("dark-theme");
+  $("#vaktija").addClass("background-black");
+  $("#vaktija").addClass("dark-theme");
   $("#ayat_prayer_time").addClass("color-white");
   $("#date-wrapper").addClass("color-white");
   $("#countdown").addClass("color-white");
   $("#city").addClass("color-white");
-  $("#header").css("border-bottom", "3px solid rgb(24, 210, 110)");
+  $(".vaktija-header").css("border-bottom", "3px solid rgb(24, 210, 110)");
 }
 function LightTheme() {
   $("#light-theme").hide();
   $("#dark_theme").show();
-  $(".frame").removeClass("background-black");
-  $(".frame").removeClass("dark-theme");
+  $("#vaktija").removeClass("background-black");
+  $("#vaktija").removeClass("dark-theme");
   $("#ayat_prayer_time").removeClass("color-white");
   $("#date-wrapper").removeClass("color-white");
   $("#countdown").removeClass("color-white");
   $("#city").removeClass("color-white");
-  $("#header").css("border-bottom", "none");
+  $(".vaktija-header").css("border-bottom", "none");
 }
 $("#dark_theme").on("click", function () {
   localStorage.setItem("theme", "dark");
