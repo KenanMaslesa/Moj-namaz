@@ -84,7 +84,6 @@ function setMinute(m) {
 }
 function setAll(now) {
   let athan = document.getElementById("athan");
-  athan.play();
   if (now >= countDownDate.getTime()) {
     setSati(izlazak_sunca);
     setMinute(izlazak_sunca);
@@ -180,7 +179,8 @@ var x = setInterval(function () {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
+  let athan = document.getElementById("athan");
+  athan.play();
   var warning = document.getElementById("warning-sound");
   if (hours == 0 && minutes <= 10 && seconds == 0) {
     $("#countdown").css("color", "red");
