@@ -619,6 +619,11 @@ font-size: 70px !important;
 #city-wrapper{
   font-size: 40px !important;
 }
+
+.time-card:hover{
+  margin-top: 0px !important;
+  
+  }
 .video-naslovna{
   height: 300x !important;
 }
