@@ -616,6 +616,7 @@ font-weight: 700;
 }
 #locations{
   margin-top: 5px;
+  margin-left: 10px;
 }
 #ayat_prayer_time{
   display: none;
