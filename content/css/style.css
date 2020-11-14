@@ -590,7 +590,7 @@ margin-bottom: 30px;
 font-size: 48px;
 font-weight: 700;
 }
-@media (max-width: 100px)and (max-width:1024px) {
+@media (max-width: 768px)and (max-width:1024px) {
   .p-xl-1{
     width: 60% !important;
   }
