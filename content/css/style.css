@@ -170,6 +170,9 @@ padding-top: 12px;
 color: #fff;
 }
 
+
+
+
 /* Prelaoder */
 #preloader {
 position: fixed;
@@ -586,15 +589,8 @@ margin-bottom: 30px;
 font-size: 48px;
 font-weight: 700;
 }
-@media (min-width: 768px)and (max-width:1024px) {
-  .p-xl-1{
-    width: 60% !important;
-  }
-  .time-card:hover{
-    margin-top: 0px;
-  }
-}
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
 #intro h2 {
   font-size: 28px;
 }
@@ -612,7 +608,6 @@ font-weight: 700;
 }
 #locations{
   margin-top: 5px;
-  margin-left: 10px;
 }
 #ayat_prayer_time{
   display: none;
@@ -623,14 +618,6 @@ font-size: 70px !important;
 #city-wrapper{
   font-size: 40px !important;
 }
-
-.time-card:hover{
-  margin-top: 0px !important;
-  
-  }
-  #vaktija{
-    padding: 50px 0 65px 0 !important;
-  }
 .video-naslovna{
   height: 300x !important;
 }
@@ -915,7 +902,6 @@ background: url("../img/about-bg1.jpg") center top no-repeat fixed;
 background-size: cover;
 padding: 85px 0 85px 0;
 position: relative;
-transition: background-color 0.5s ease;
 }
 
 .frame::before {
@@ -1428,7 +1414,8 @@ margin-top: -10px;
 }
 
 #ayat_prayer_time h2{
- margin-bottom: 4px;
+  margin-top: 45px; 
+  margin-bottom: 4px;
 }
 
 .dark-theme::before{
@@ -1442,7 +1429,6 @@ margin-top: -10px;
   background: black;
   transition: background-color 0.5s ease;
 }
-
 .danger{
   color: red;
   font-size: 100px;
