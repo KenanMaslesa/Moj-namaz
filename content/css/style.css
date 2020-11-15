@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -587,7 +586,14 @@ margin-bottom: 30px;
 font-size: 48px;
 font-weight: 700;
 }
-
+@media (min-width: 768px)and (max-width:1024px) {
+  .p-xl-1{
+    width: 60% !important;
+  }
+  .time-card:hover{
+    margin-top: 0px;
+  }
+}
 @media (min-width: 768px) {
 #intro h2 {
   font-size: 28px;
