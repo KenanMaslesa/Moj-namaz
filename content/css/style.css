@@ -642,7 +642,7 @@ width: 80%;
 margin: 0 auto 30px auto;
 color: #fff;
 }
-@media (min-width: 768px) and (max-width:1024px){
+@media (min-width: 769px) and (max-width:1024px){
   .p-xl-1 {
     width: 60% !important;
   }
