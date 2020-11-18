@@ -260,6 +260,9 @@ max-height: 40px;
 #header .logo {
   font-size: 23px;
 }
+#quran{
+  display: none;
+}
 }
 
 /*--------------------------------------------------------------
@@ -594,6 +597,9 @@ font-weight: 700;
 #intro h2 {
   font-size: 28px;
 }
+#quran{
+  display: none;
+}
 .p-xl-1{
   width: 100% !important;
 }
@@ -822,6 +828,9 @@ margin-top: 90px;
 #fajr .description{
   text-align: center;
 }
+#quran{
+  display: none;
+}
 }
 
 .breadcrumbs h2 {
@@ -853,6 +862,9 @@ content: "/";
 @media (max-width: 768px) {
 .breadcrumbs .d-flex {
   display: block !important;
+}
+#quran{
+  display: none;
 }
 .breadcrumbs ol {
   display: block;
