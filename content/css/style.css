@@ -1496,3 +1496,6 @@ margin-top: -10px;
 #izlazak_n{
   font-size: 15px;
 }
+  #quran>a{
+    color: #c7a360 !important;
+  }
