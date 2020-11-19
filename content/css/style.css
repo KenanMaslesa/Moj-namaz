@@ -659,12 +659,12 @@ color: #fff;
   width: 60%;
 }
 .nav-menu a{
-  font-size: 9px;
+  font-size: 11px;
 }
 }
 @media (min-width: 1024px) and (max-width:1024px){
   .nav-menu a{
-    font-size: 9px;
+    font-size: 11px;
   }
   .drop-down a{
     font-size: 9px !important;
