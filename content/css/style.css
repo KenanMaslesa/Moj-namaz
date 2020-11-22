@@ -1524,3 +1524,82 @@ margin-top: -10px;
     color: #c7a360 !important;
   }
 
+
+.share-icon{
+  font-size: 18px;
+    display: inline-block;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    z-index: 9999;
+}
+#share-icon-index{
+  font-size: 18px;
+    display: flex;
+    position: fixed;
+    right: 4px;
+    top: 10px;
+    z-index: 9999;
+}
+#facebook{
+  font-size: 18px;
+    display: block;
+    background:#1877f2;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+#facebook:hover{
+  color: white;
+  opacity: 0.8;
+}
+
+#mail{
+  font-size: 18px;
+    display: inline-block;
+    background:gray;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+#mail:hover{
+  color: white;
+  opacity: 0.8;
+}
+#twitter{
+  font-size: 18px;
+    display: block;
+    background:#2ebfdf;
+    color: white;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+#twitter:hover{
+  color: white;
+  opacity: 0.8;
+}
+
+
