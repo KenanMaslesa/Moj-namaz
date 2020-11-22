@@ -597,6 +597,9 @@ font-weight: 700;
 #intro h2 {
   font-size: 28px;
 }
+#share-icon-index, .share-icon{
+  display: none !important;
+}
 #quran{
   display: none;
 }
