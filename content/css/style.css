@@ -1621,8 +1621,8 @@ margin-top: -10px;
 }
 
 #counter:active{
-  border: 3px solid gray !important;
-  background-color: #cfcccc !important;
+  border: 3px solid white!important;
+    background-color: white!important;
 }
 #minus:active::before{
   color: white;
