@@ -1542,9 +1542,11 @@ margin-top: -10px;
   font-size: 15px;
 }
   #quran>a{
+    color: #d1be9a !important;
+  }
+  #quran > a:hover{
     color: #c7a360 !important;
   }
-
 
 .share-icon{
   font-size: 18px;
@@ -1640,13 +1642,13 @@ margin-top: -10px;
     background-color: lightgray !important;
 }
 #minus:active::before{
-  color: white;
+  color: rgb(201, 201, 201);
 }
 #plus:active::before{
-  color: white;
+  color: rgb(201, 201, 201);
 }
 #reset_counter:active::before{
-  color: white;
+  color: rgb(201, 201, 201);
 }
 
 .arabic{
