@@ -1627,8 +1627,16 @@ margin-top: -10px;
   border: 2px solid white!important;
     background-color: lightgray !important;
 }
+#mobile-counterup{
+  background-color: lightgray !important;
+  border: 3px solid white!important;
+  color: white !important;
+}
+#reset_mobile_counter{
+  color: gray;
+}
 #mobile-counterup:active{
-  border: 2px solid white!important;
+  border: 2px solid lightgray!important;
     background-color: lightgray !important;
 }
 #minus:active::before{
