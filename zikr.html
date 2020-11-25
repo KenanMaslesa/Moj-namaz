@@ -22,7 +22,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
     rel="stylesheet">
-
   <link href="content/mix/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="content/mix/icofont/icofont.min.css" rel="stylesheet">
   <link href="content/mix/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -51,7 +50,7 @@
           <nav class="nav-menu d-none d-lg-block">
             <ul>
               <li class="left-border padding"><a href="index.html">O namazu</a></li>
-              <li><a href="conditions-for-pray.html">Uvjeti za namaz</a></li>
+              <li><a href="uvjeti-za-namaz.html">Uvjeti za namaz</a></li>
               <li><a href="kako-klanjati.html">Kako klanjati namaz?</a></li>
               <li><a href="abdest.html">Abdest</a></li>
               <li><a href="sabah.html">Sabah</a></li>
@@ -59,8 +58,14 @@
               <li><a href="ikindija.html">Ikindija</a></li>
               <li><a href="aksam.html">Akšam</a></li>
               <li><a href="jacija.html">Jacija</a></li>
-              <li class="active"><a href="zikr.html">Zikr nakon namaza</a></li>
-              <li class="drop-down"><a href="">Komentar knjiga o namazu</a>
+              <li class="drop-down active"><a href="">Zikr</a>
+                <ul>
+                  <li class="active"><a href="zikr.html">Zikr nakon namaza</a></li>
+                  <li><a href="jutarnji-zikr.html">Jutarnji zikr</a></li>
+                  <li><a href="vecernji-zikr.html">Večernji zikr</a></li>
+                </ul>
+              </li>
+              <li class="drop-down"><a href="namaz-radost-oka-moga.html">Komentar knjiga o namazu</a>
                 <ul>
                   <li><a href="namaz-radost-oka-moga.html">Namaz radost oka moga</a></li>
                   <li><a href="svojstva-namaza.html">Svojstva Poslanikovog ﷺ namaza od abdesta do zikra</a></li>
@@ -188,6 +193,21 @@ Ebu-Davud, str. 355/1522, Ibn-Huzejme, 1/369/751, Ibn Sunni, str.46/118, Hakim, 
     <a href="mailto:kenanabdullah571@gmail.com" target="_blank" id="mail"><i class="ion-android-mail"></i></a>
     <a href="https://twitter.com/share?url=https://www.mojnamaz.com/zikr" target="_blank" id="twitter"><i class="ion-social-twitter"></i></a>
   </div>
+
+  <div style="font-size:50px;position: fixed;top: 132px;right: 35px;z-index: 99999; text-align: center; user-select: none;">
+    <span style="font-size: 19px; font-weight: bold; display:block;">Veličina slova</span>
+    <i class="ion-ios-minus-outline" style="cursor: pointer;" id="minus"></i>
+    <i class="ion-ios-plus-outline" id="plus" style="cursor: pointer;"></i>
+  </div>
+
+  <div style="position: fixed; top: 250px; right: 60px; text-align: center; user-select: none; cursor: pointer;z-index: 9999;">
+    <span style="font-size: 19px; font-weight: bold; display:block;">Tespih</span>
+    <div id="counter" style="background: transparent;width: 80px;height: 80px;border-radius: 50%;padding-top: 15px;color: white;font-size: 30px;border: 2px solid gray;color: gray;">
+      <span id="counterup">0</span>
+      </div>
+      <i class="ion-loop" id="reset_counter" style="font-size: 25px;"></i>
+  </div>
+
   <script src="content/mix/jquery/jquery.min.js"></script>
   <script src="content/mix/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="content/mix/jquery.easing/jquery.easing.min.js"></script>

@@ -16,3 +16,49 @@ $("#exit").on('click', function(){
   $(".frame").css("padding","120px 0 30px 0");
 });
 
+var fontSize = 16;
+$("#plus").on('click', function(){
+  fontSize++;
+  $("#main").css("font-size",fontSize.toString()+"px");
+});
+
+$("#minus").on('click', function(){
+  fontSize--;
+  $("#main").css("font-size",fontSize.toString()+"px");
+});
+
+
+var audio, audioPath;
+$(".play-btn").on("click", function(){
+   if(audioPath == $(this).attr("data-audio"))
+   audio.play();
+   else{
+    audioPath = $(this).attr("data-audio");
+     audio = new Audio(audioPath);
+     audio.play();
+   }
+});
+$(".pause-btn").on("click", function(){
+  audioPath = $(this).attr("data-audio");
+  if(audioPath == $(this).attr("data-audio"))
+    audio.pause();
+});
+$(".stop-btn").on("click", function(){
+  audioPath = $(this).attr("data-audio");
+  if(audioPath == $(this).attr("data-audio"))
+   {
+    audio.pause();
+    audio.currentTime = 0;
+   } 
+});
+
+var counter = 0;
+$("#counter").on("click", function(){
+counter++;
+$("#counterup").html(counter);
+});
+
+$("#reset_counter").on("click", function(){
+  counter = 0;
+  $("#counterup").html(counter);
+  });
