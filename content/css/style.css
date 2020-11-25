@@ -673,7 +673,7 @@ color: #fff;
 #intro p {
   width: 60%;
 }
-.mobile-counter{
+#mobile-counter1, #mobile-counter2{
   display: none;
 }
 .nav-menu a{
