@@ -263,6 +263,17 @@ max-height: 40px;
 #quran{
   display: none;
 }
+
+}
+
+@media(max-width: 1023px)
+{
+  .fontSize{
+    display: none;
+  }
+  .tesbih{
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -290,7 +301,7 @@ display: block;
 position: relative;
 color: #fff;
 transition: 0.3s;
-font-size: 8px;
+font-size: 9px;
 font-family: "Montserrat", sans-serif;
 text-transform: uppercase;
 font-weight: 600;
@@ -597,12 +608,7 @@ font-weight: 700;
 #intro h2 {
   font-size: 28px;
 }
-.fontSize{
-  display: none;
-}
-.tesbih{
-  display: none;
-}
+
 #share-icon-index, .share-icon{
   display: none !important;
 }
@@ -668,15 +674,15 @@ color: #fff;
   width: 60%;
 }
 .nav-menu a{
-  font-size: 8.5px;
+  font-size: 10px;
 }
 .drop-down a{
-  font-size: 8.5px !important;
+  font-size: 10px !important;
 }
 }
 @media (min-width: 1024px) and (max-width:1024px){
   .drop-down a{
-    font-size: 9px !important;
+    font-size: 10px !important;
   }
   ul li {
     word-break: break-all;
@@ -690,34 +696,24 @@ color: #fff;
 @media(min-width:1200px) and (max-width:1300px)
 {
   .nav-menu a{
-    font-size: 10px;
+    font-size: 11px;
   }
   .drop-down a{
-    font-size: 10px !important;
+    font-size: 11px !important;
   }
  
 }
 @media(min-width:1300px) and (max-width:1400px)
 {
   .nav-menu a{
-    font-size: 11.5px;
+    font-size: 12px;
   }
   .drop-down a{
-    font-size: 11.5px !important;
+    font-size: 12px !important;
   }
  
 }
 @media(min-width:1400px) and (max-width:1500px)
-{
-  .nav-menu a{
-    font-size: 12.5px;
-  }
-  .drop-down a{
-    font-size: 12.5px !important;
-  }
- 
-}
-@media(min-width:1500px) and (max-width:1690px)
 {
   .nav-menu a{
     font-size: 14px;
@@ -727,7 +723,7 @@ color: #fff;
   }
  
 }
-@media(min-width:1690px) and (max-width:2000px)
+@media(min-width:1500px) and (max-width:1690px)
 {
   .nav-menu a{
     font-size: 15px;
@@ -737,23 +733,33 @@ color: #fff;
   }
  
 }
+@media(min-width:1690px) and (max-width:2000px)
+{
+  .nav-menu a{
+    font-size: 17px;
+  }
+  .drop-down a{
+    font-size: 17px !important;
+  }
+ 
+}
 @media(min-width:2000px)
 {
   .nav-menu a{
-    font-size: 18.5px;
+    font-size: 20px;
   }
   .drop-down a{
-    font-size: 18.5px !important;
+    font-size: 20px !important;
   }
  
 }
 @media(min-width:1616px) and (max-width:1690px)
 {
   .nav-menu a{
-    font-size: 14px;
+    font-size: 16px;
   }
   .drop-down a{
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
  
 }
@@ -794,6 +800,9 @@ width: 10%;
 @media (min-width: 1024px) {
 #intro .carousel-control-prev, #intro .carousel-control-next {
   width: 5%;
+}
+.zikr-wrapper{
+  padding: 0px 90px 0px 90px !important;
 }
 }
 
