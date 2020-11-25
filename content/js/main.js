@@ -62,3 +62,14 @@ $("#reset_counter").on("click", function(){
   counter = 0;
   $("#counterup").html(counter);
   });
+
+  var mobileCounter = 0;
+$("#mobile-counterup").on("click", function(){
+  mobileCounter++;
+$("#mobile-counterup").html(mobileCounter);
+});
+
+$("#reset_mobile_counter").on("click", function(){
+  mobileCounter = 0;
+  $("#mobile-counterup").html(mobileCounter);
+  });
