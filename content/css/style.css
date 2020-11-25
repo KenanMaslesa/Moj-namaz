@@ -274,6 +274,9 @@ max-height: 40px;
   .tesbih{
     display: none;
   }
+  #tesbih-wrapper{
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -673,12 +676,7 @@ color: #fff;
 #intro p {
   width: 60%;
 }
-@media (max-width: 1024px) {
-  #tesbih-wrapper{
-    display: none;
-  }
-
-
+  
 #mobile-counter1, #mobile-counter2{
   display: none;
 }
