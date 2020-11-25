@@ -1633,3 +1633,7 @@ margin-top: -10px;
 #reset_counter:active::before{
   color: white;
 }
+
+.arabic{
+  font-size: 22px;
+}
