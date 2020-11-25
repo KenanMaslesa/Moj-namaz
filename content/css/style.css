@@ -1619,3 +1619,17 @@ margin-top: -10px;
   color: white;
   opacity: 0.8;
 }
+
+#counter:active{
+  border: 3px solid gray !important;
+  background-color: #cfcccc !important;
+}
+#minus:active::before{
+  color: white;
+}
+#plus:active::before{
+  color: white;
+}
+#reset_counter:active::before{
+  color: white;
+}
