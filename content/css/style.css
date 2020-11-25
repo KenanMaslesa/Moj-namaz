@@ -600,6 +600,9 @@ font-weight: 700;
 .fontSize{
   display: none;
 }
+.tesbih{
+  display: none;
+}
 #share-icon-index, .share-icon{
   display: none !important;
 }
