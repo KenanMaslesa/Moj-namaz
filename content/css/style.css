@@ -1624,8 +1624,8 @@ margin-top: -10px;
 }
 
 #counter:active{
-  border: 2px solid white!important;
-    background-color: lightgray !important;
+  border: 2px solid lightgray!important;
+  background-color: lightgray !important;
 }
 #mobile-counterup1, #mobile-counterup2{
   background-color: lightgray !important;
