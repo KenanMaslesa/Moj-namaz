@@ -63,13 +63,25 @@ $("#reset_counter").on("click", function(){
   $("#counterup").html(counter);
   });
 
-  var mobileCounter = 0;
-$("#mobile-counterup").on("click", function(){
-  mobileCounter++;
-$("#mobile-counterup").html(mobileCounter);
+  var mobileCounter1 = 0;
+$("#mobile-counterup1").on("click", function(){
+  mobileCounter1++;
+$("#mobile-counterup1").html(mobileCounter1);
 });
 
-$("#reset_mobile_counter").on("click", function(){
-  mobileCounter = 0;
-  $("#mobile-counterup").html(mobileCounter);
+$("#reset_mobile_counter1").on("click", function(){
+  mobileCounter1 = 0;
+  $("#mobile-counterup1").html(mobileCounter1);
   });
+
+
+  var mobileCounter2 = 0;
+  $("#mobile-counterup2").on("click", function(){
+    mobileCounter2++;
+  $("#mobile-counterup2").html(mobileCounter2);
+  });
+  
+  $("#reset_mobile_counter2").on("click", function(){
+    mobileCounter2 = 0;
+    $("#mobile-counterup2").html(mobileCounter2);
+    });
