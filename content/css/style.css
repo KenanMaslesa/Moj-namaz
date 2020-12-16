@@ -606,7 +606,11 @@ margin-bottom: 30px;
 font-size: 48px;
 font-weight: 700;
 }
-
+@media (max-width: 1000px) {
+  #share-icon-index{
+    display: none !important;
+  }
+}
 @media (max-width: 768px) {
 #intro h2 {
   font-size: 28px;
