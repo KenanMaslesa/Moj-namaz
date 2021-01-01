@@ -56,7 +56,7 @@
 
 <body>
 
-  <header id="header" class="fixed-top header-transparent">
+  <header id="header" class="fixed-top header-transparent dark-header">
     <div class="container-fluid">
 
       <div class="row justify-content" style="justify-content: none !important;">
@@ -87,12 +87,12 @@
                 </ul>
               </li>
               <li><a href="vaktija.html">Vaktija</a></li>
-                <li class="drop-down" id="quran" class="active"><a href="">Kur'an</a>
-                  <ul>
-                    <li><a href="kur'an.html">Ayat</a></li>
-                    <li><a href="quranflash.html">QuranFlash</a></li>
-                  </ul>
-                </li>
+              <li class="drop-down" id="quran" class="active"><a href="">Kur'an</a>
+                <ul>
+                  <li><a href="kur'an.html">Ayat</a></li>
+                  <li><a href="quranflash.html">QuranFlash</a></li>
+                </ul>
+              </li>
               </li>
             </ul>
           </nav>
@@ -105,7 +105,7 @@
 
   <main id="main">
 
-    <section class="frame" style="padding:120px 0 30px 0" id="quran">
+    <section class="frame dark" style="padding:120px 0 30px 0" id="quran">
       <div class="container text-center" data-aos="fade-up">
         <i class="ion-android-expand" style="font-size:25px; position: fixed;
           top: -7px;
@@ -113,9 +113,13 @@
         <i class="ion-android-exit" id="exit" style="font-size:25px; position: fixed;
           top: -8px;
           right: 47px; display: none; cursor: pointer;"></i>
-       
-       <iframe src="https://app.quranflash.com/book/MedinaOld?en#/reader"
-       style="min-width:1000px;width:92%;height:960px;border:none;overflow:hidden"></iframe>
+
+        <iframe src="https://app.quranflash.com/book/MedinaOld?en#/reader"
+          style="min-width:1000px;width:92%;height:960px;border:none;overflow:hidden"></iframe>
+        <div style="font-size:70px;">
+          <i class="ion-ios-moon" id="dark_theme" style="cursor: pointer;"></i>
+          <i class="ion-ios-sunny-outline" style="cursor: pointer;" id="light-theme" style="display: none;"></i>
+        </div>
       </div>
 
     </section>
@@ -147,6 +151,8 @@
   <script src="content/mix/venobox/venobox.min.js"></script>
   <script src="content/mix/owl.carousel/owl.carousel.min.js"></script>
   <script src="content/mix/aos/aos.js"></script>
+  <script src="content/js/vaktija.js"></script>
+
 
   <script src="content/js/main.js"></script>
 </body>
