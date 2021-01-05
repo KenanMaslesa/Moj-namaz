@@ -256,22 +256,15 @@
   }
 
   .drop-down {
-    &.active {
-      a {
-        &::after {
-          content: "\eaa1";
-        }
-      }
-    }
-
     ul {
       display: none;
       overflow: hidden;
     }
 
     a {
-      padding-right: 35px;
-
+      padding-right: 35px; 
+    }
+    > a{
       &::after {
         content: "\ea99";
         font-family: IcoFont;

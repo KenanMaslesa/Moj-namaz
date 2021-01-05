@@ -318,10 +318,6 @@
   text-decoration: none;
 }
 
-.mobile-nav .drop-down.active a::after {
-  content: "\eaa1";
-}
-
 .mobile-nav .drop-down ul {
   display: none;
   overflow: hidden;
@@ -331,7 +327,7 @@
   padding-right: 35px;
 }
 
-.mobile-nav .drop-down a::after {
+.mobile-nav .drop-down > a::after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
