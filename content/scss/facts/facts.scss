@@ -1,0 +1,49 @@
+/* Facts Section
+--------------------------------*/
+#facts {
+  background: url("../img/about-bg1.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 130px 0;
+  position: relative;
+
+  .facts-img {
+    text-align: center;
+    padding-top: 30px;
+    }
+    
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9;
+    }
+
+    .container {
+      position: relative;
+      z-index: 10;
+      }
+
+      .counters{
+        span {
+          font-family: "Montserrat", sans-serif;
+          font-weight: bold;
+          font-size: 48px;
+          display: block;
+          color: #18d26e;
+          }
+
+          p {
+            padding: 0;
+            margin: 0 0 20px 0;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: #111;
+            }
+      }
+  }
+
+  

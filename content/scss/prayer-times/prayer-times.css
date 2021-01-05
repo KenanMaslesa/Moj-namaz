@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+  #vaktija {
+    padding: 50px 0 65px 0 !important;
+  }
+}
+
+.time-card {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.time-card:hover {
+  margin-top: -10px;
+}
+
+#location li a {
+  color: gray;
+}
+
+.active-time {
+  background: #18d26e !important;
+  color: white;
+}
+
+.p-xl-1 {
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .p-xl-1 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .p-xl-1 {
+    width: 60% !important;
+  }
+}
+
+#city-wrapper {
+  font-size: 60px;
+}
+
+#currentTime {
+  background: #18d26e !important;
+  color: white;
+  border-radius: 48px;
+  font-size: 23px;
+  padding: 30px 20px 30px 20px;
+  position: absolute;
+  top: 25px;
+  left: -157px;
+}
+
+.dark-theme::before {
+  background: none !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.background-black {
+  background: black;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.danger {
+  color: red;
+  font-size: 100px;
+}
+
+#izlazak_n {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  #location-wrapper {
+    border-radius: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #date1 {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  #delimiter {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #locations {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  #ayat_prayer_time {
+    display: none;
+  }
+}
+
+#ayat_prayer_time h2 {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 768px) {
+  #countdown {
+    font-size: 70px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #countdown {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #city-wrapper {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .time-card:hover {
+    margin-top: 0px !important;
+  }
+}
+/*# sourceMappingURL=prayer-times.css.map */

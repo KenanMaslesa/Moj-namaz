@@ -1,0 +1,47 @@
+/* Warning For Prayer Section
+--------------------------------*/
+#warning_for_prayer {
+  background-size: cover;
+  padding: 60px 0 40px 0;
+
+  .box {
+    margin-bottom: 40px;
+    }
+
+    .icon {
+      text-align: center;
+      margin-bottom: 10px;
+
+      i {
+        color: #18d26e;
+        font-size: 36px;
+        line-height: 1;
+        transition: 0.5s;
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif
+        }
+    }
+
+    .title {
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 18px;
+
+      a {
+        color: #111;
+        }
+
+      }
+
+      .description {
+        font-size: 16px;
+        margin-bottom: 0;
+        text-align:left;
+
+        @media (max-width: 768px) {
+          text-align: center !important;
+        }
+        }
+  }
+ 
+  

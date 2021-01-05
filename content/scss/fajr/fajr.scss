@@ -1,0 +1,52 @@
+/* Fajr */
+#fajr {
+  background-size: cover;
+  padding: 60px 0 40px 0;
+
+  .box {
+    margin-bottom: 70px;
+    text-align: left;
+
+    &:hover {
+      .title a {
+        color: #18d26e;
+      }
+    }
+
+    .icon {
+      float: left;
+
+      i {
+        color: #18d26e;
+        font-size: 36px;
+        line-height: 1;
+        transition: 0.5s;
+      }
+    }
+
+    .title {
+      font-weight: 700;
+      margin-bottom: 15px;
+      font-size: 18px;
+      text-align: center;
+
+      a {
+        color: #111;
+      }
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 0;
+
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+
+      @media (max-width: 992px) {
+        text-align: center;
+      }
+    }
+  }
+}

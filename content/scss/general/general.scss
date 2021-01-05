@@ -1,0 +1,340 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: #18d26e;
+  transition: 0.5s;
+  text-decoration: none;
+  &:hover,
+  :active,
+  :focus {
+    color: #18d36e;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+.no-margin {
+  margin: 0px !important;
+}
+.m-t-59 {
+  margin-top: 59px;
+}
+.m-t-90 {
+  margin-top: 90px;
+}
+
+.h-350 {
+  height: 350px;
+}
+
+.h-100 {
+  height: 100vh !important;
+}
+
+.center {
+  text-align: center;
+}
+.col-sm-12 {
+  width: 92%;
+}
+.m-b-61 {
+  margin-bottom: 61px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.m-b-40 {
+  margin-bottom: 40px;
+}
+.m-b-50 {
+  margin-bottom: 50px;
+}
+.m-t-50 {
+  margin-top: 50px;
+}
+.m-t-25 {
+  margin-top: 25px;
+}
+.m-t-45 {
+  margin-top: 45px;
+}
+
+.m-t-b-70 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.m-b-70 {
+  margin-bottom: 70px;
+}
+.m-t-35 {
+  margin-top: 35px;
+}
+.m-b-35 {
+  margin-bottom: 35px;
+}
+.m-t-b-35 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.video {
+  max-width: 100% !important;
+  border-radius: 10px;
+}
+
+.video-naslovna {
+  max-width: 100% !important;
+  width: 711px;
+  border-radius: 10px;
+  height: 400px;
+}
+.img {
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.justify-content-center {
+  justify-content: none !important;
+}
+.display-flex {
+  display: block;
+}
+
+.left-border {
+  border-left: 4px solid #18d26e;
+  padding: 10px 0 0px 10px;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+.padding {
+  padding: 10px 0 0px 10px !important;
+}
+.fa:focus {
+  outline: none !important;
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #18d26e;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+
+  i {
+    padding-top: 12px;
+    color: #fff;
+  }
+}
+
+#counter:active {
+  border: 2px solid lightgray !important;
+  background-color: lightgray !important;
+}
+#mobile-counterup1,
+#mobile-counterup2 {
+  background-color: lightgray !important;
+  border: 3px solid white !important;
+  color: white !important;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+#reset_mobile_counter {
+  color: gray;
+}
+#mobile-counterup1:active,
+#mobile-counterup2:active {
+  border: 2px solid lightgray !important;
+  background-color: lightgray !important;
+}
+#minus:active::before {
+  color: rgb(201, 201, 201);
+}
+#plus:active::before {
+  color: rgb(201, 201, 201);
+}
+#reset_counter:active::before {
+  color: rgb(201, 201, 201);
+}
+
+.arabic {
+  font-size: 22px;
+}
+
+/*SHARE ICONS*/
+
+.share-icon {
+  font-size: 18px;
+  display: inline-block;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  z-index: 9999;
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+#share-icon-index {
+  font-size: 18px;
+  display: flex;
+  position: fixed;
+  right: 4px;
+  top: 10px;
+  z-index: 9999;
+
+  @media (max-width: 1000px) {
+    display: none !important;
+  }
+}
+
+#facebook {
+  font-size: 14px;
+  display: block;
+  background: #1877f2;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+
+  &:hover {
+    color: white;
+    opacity: 0.8;
+  }
+}
+
+#mail {
+  font-size: 14px;
+  display: block;
+  background: gray;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+
+  &:hover {
+    color: white;
+    opacity: 0.8;
+  }
+}
+
+#twitter {
+  font-size: 14px;
+  display: block;
+  background: #2ebfdf;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  position: relative;
+
+  &:hover {
+    color: white;
+    opacity: 0.8;
+  }
+}
+
+.android_ios {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: -70px;
+  margin-top: 20px;
+}
+.android_ios a {
+  color: gray;
+}
+
+/* Section with background
+  --------------------------------*/
+.section-bg {
+  background: #f7f7f7;
+}
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+section {
+  overflow: hidden;
+}
+
+.fontSize,.tesbih, #tesbih-wrapper{
+  @media(max-width: 1023px)
+  {
+  display: none;
+}
+}
+
+#quran{
+  @media (max-width: 992px){
+    display: none;
+  }
+}

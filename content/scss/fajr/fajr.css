@@ -1,0 +1,56 @@
+/* Fajr */
+#fajr {
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#fajr .box {
+  margin-bottom: 70px;
+  text-align: left;
+}
+
+#fajr .box:hover .title a {
+  color: #18d26e;
+}
+
+#fajr .box .icon {
+  float: left;
+}
+
+#fajr .box .icon i {
+  color: #18d26e;
+  font-size: 36px;
+  line-height: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#fajr .box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#fajr .box .title a {
+  color: #111;
+}
+
+#fajr .box .description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #fajr .box .description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #fajr .box .description {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=fajr.css.map */

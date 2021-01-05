@@ -1,0 +1,48 @@
+/* Warning For Prayer Section
+--------------------------------*/
+#warning_for_prayer {
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#warning_for_prayer .box {
+  margin-bottom: 40px;
+}
+
+#warning_for_prayer .icon {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#warning_for_prayer .icon i {
+  color: #18d26e;
+  font-size: 36px;
+  line-height: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#warning_for_prayer .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#warning_for_prayer .title a {
+  color: #111;
+}
+
+#warning_for_prayer .description {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  #warning_for_prayer .description {
+    text-align: center !important;
+  }
+}
+/*# sourceMappingURL=omission-of-prayer.css.map */
