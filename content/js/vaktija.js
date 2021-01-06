@@ -1,1 +1,229 @@
-var _0x3848=['#date2','addClass','onerror','floor','#zora_n','getDate','click','active-time','statusText','#ayat_prayer_time','GET','html','#podne_s','Error\x20','dark','34223EPtwBp','Greška\x20u\x20komunikaciji\x20sa\x20serverom','313hMenEB','1BbdoSp','setDate','#podne_n','566520aEafbw','indexOf','#date-wrapper','#light-theme','danger','removeClass','#aksam_n','.dark','#izlazak_s','responseText','.dark-header','#ikindija_n','#zora_s','#aksam_v','#izlazak_n','338697chpJXL','#jacija_n','#aksam_s','#zora_v','hide','3px\x20solid\x20rgb(24,\x20210,\x20110)','show','https://api.vaktija.ba/vaktija/v1/','setHours','#city','getTime','parse','#locations\x20option[value=','datum','selected','#podne_v','setMinutes','light','7bVZNze','onload','setSeconds','#countdown','#jacija_v','814405oLwdDt','location','open','countdown','css','https://api.vaktija.ba/vaktija/v1/77','27ovNiYR','status','getItem','innerHTML','prop','theme','color-white','#izlazak_v','18024GcIbxs','vakat','698768PVWTOP','#ikindija_v','\x20/\x20','setItem','border-bottom','#dark_theme','#jacija_s','getElementById','background-black','12213YWPbdj','value','substring'];var _0x7c84=function(_0xe161fc,_0x53f9f6){_0xe161fc=_0xe161fc-0x1ad;var _0x384841=_0x3848[_0xe161fc];return _0x384841;};var _0x3fcfde=_0x7c84;(function(_0x58e295,_0x353d26){var _0x109a4d=_0x7c84;while(!![]){try{var _0x39879a=-parseInt(_0x109a4d(0x1ec))+-parseInt(_0x109a4d(0x1b2))*parseInt(_0x109a4d(0x1ba))+-parseInt(_0x109a4d(0x1bc))+-parseInt(_0x109a4d(0x203))*parseInt(_0x109a4d(0x1da))+parseInt(_0x109a4d(0x1d7))*-parseInt(_0x109a4d(0x1fe))+-parseInt(_0x109a4d(0x1dd))+parseInt(_0x109a4d(0x1c5))*parseInt(_0x109a4d(0x1d9));if(_0x39879a===_0x353d26)break;else _0x58e295['push'](_0x58e295['shift']());}catch(_0x2b1ebc){_0x58e295['push'](_0x58e295['shift']());}}}(_0x3848,0xa58b6));var zora,izlazak_sunca,podne,ikindija,aksam,jacija,sati,minute,countDownDate=new Date();window[_0x3fcfde(0x1ff)]=function(){var _0x449517=_0x3fcfde,_0x4475ff=localStorage['getItem'](_0x449517(0x1b7));if(_0x4475ff===_0x449517(0x1d6))DarkTheme();else LightTheme();if(localStorage[_0x449517(0x1b4)](_0x449517(0x1ad))===null)localStorage[_0x449517(0x1bf)](_0x449517(0x1ad),0x4d);else var _0x12705d=localStorage['getItem']('location'),_0x3cdce5=$(_0x449517(0x1f8)+_0x12705d+']')[_0x449517(0x1b6)](_0x449517(0x1fa),!![]);};function getPoziv(_0x5bd05a,_0x22e906){var _0x447f77=_0x3fcfde,_0x3864be=new XMLHttpRequest();_0x3864be[_0x447f77(0x1ff)]=function(){var _0x8bf2de=_0x447f77;_0x3864be[_0x8bf2de(0x1b3)]==0xc8?_0x5bd05a(JSON[_0x8bf2de(0x1f7)](_0x3864be[_0x8bf2de(0x1e6)])):alert(_0x8bf2de(0x1d5)+_0x3864be[_0x8bf2de(0x1d0)]);},_0x3864be[_0x447f77(0x1ca)]=function(){var _0x3e8a5f=_0x447f77;alert(_0x3e8a5f(0x1d8));},_0x3864be[_0x447f77(0x1ae)](_0x447f77(0x1d2),_0x22e906,!![]),_0x3864be['send'](null);}if(localStorage['getItem'](_0x3fcfde(0x1ad))==null)urlGetVaktija=_0x3fcfde(0x1b1);else urlGetVaktija=_0x3fcfde(0x1f3)+localStorage['getItem'](_0x3fcfde(0x1ad));getPoziv(ucitajPodatke,urlGetVaktija);function ucitajPodatke(_0x59313b){var _0x2de1f5=_0x3fcfde;zora=_0x59313b[_0x2de1f5(0x1bb)][0x0],izlazak_sunca=_0x59313b[_0x2de1f5(0x1bb)][0x1],podne=_0x59313b[_0x2de1f5(0x1bb)][0x2],ikindija=_0x59313b['vakat'][0x3],aksam=_0x59313b[_0x2de1f5(0x1bb)][0x4],jacija=_0x59313b[_0x2de1f5(0x1bb)][0x5],$(_0x2de1f5(0x1c2))[_0x2de1f5(0x1c9)](_0x2de1f5(0x1cf)),$(_0x2de1f5(0x1ed))[_0x2de1f5(0x1c9)](_0x2de1f5(0x1cf)),$(_0x2de1f5(0x202))[_0x2de1f5(0x1c9)]('active-time'),sati=zora[_0x2de1f5(0x1c7)](0x0,zora[_0x2de1f5(0x1de)](':')),minute=zora[_0x2de1f5(0x1c7)](zora[_0x2de1f5(0x1de)](':')+0x1),countDownDate['setHours'](sati),countDownDate[_0x2de1f5(0x1fc)](minute),countDownDate[_0x2de1f5(0x200)](0x0),$('#city')[_0x2de1f5(0x1d3)](_0x59313b['lokacija']),$('#date')[_0x2de1f5(0x1d3)](_0x59313b[_0x2de1f5(0x1f9)][0x1]+_0x2de1f5(0x1be)+_0x59313b['datum'][0x0]),$('#date1')[_0x2de1f5(0x1d3)](_0x59313b[_0x2de1f5(0x1f9)][0x1]),$(_0x2de1f5(0x1c8))[_0x2de1f5(0x1d3)](_0x59313b[_0x2de1f5(0x1f9)][0x0]),$('#zora_v')[_0x2de1f5(0x1d3)](zora),$(_0x2de1f5(0x1b9))['html'](izlazak_sunca),$('#podne_v')[_0x2de1f5(0x1d3)](podne),$('#ikindija_v')['html'](ikindija),$('#aksam_v')[_0x2de1f5(0x1d3)](aksam),$('#jacija_v')[_0x2de1f5(0x1d3)](jacija);}function setSati(_0x560b3d){var _0x473406=_0x3fcfde;sati=_0x560b3d[_0x473406(0x1c7)](0x0,_0x560b3d[_0x473406(0x1de)](':')),countDownDate[_0x473406(0x1f4)](sati);}function setMinute(_0x446e5f){var _0x14c657=_0x3fcfde;minute=_0x446e5f['substring'](_0x446e5f[_0x14c657(0x1de)](':')+0x1),countDownDate['setMinutes'](minute);}function setAll(_0x2db12c){var _0x34d9a0=_0x3fcfde;_0x2db12c>=countDownDate[_0x34d9a0(0x1f6)]()&&(setSati(izlazak_sunca),setMinute(izlazak_sunca),$(_0x34d9a0(0x1c2))['removeClass'](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1ed))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x202))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$('#zora_s')[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1cc))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1ef))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf))),_0x2db12c>=countDownDate['getTime']()&&(setSati(podne),setMinute(podne),$(_0x34d9a0(0x1e9))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1cc))[_0x34d9a0(0x1e2)]('active-time'),$(_0x34d9a0(0x1ef))['removeClass'](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1e5))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$('#izlazak_n')[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1b9))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf))),_0x2db12c>=countDownDate[_0x34d9a0(0x1f6)]()&&(setSati(ikindija),setMinute(ikindija),$(_0x34d9a0(0x1e5))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1eb))['removeClass'](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1b9))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1d4))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1dc))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1fb))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf))),_0x2db12c>=countDownDate[_0x34d9a0(0x1f6)]()&&(setSati(aksam),setMinute(aksam),$(_0x34d9a0(0x1d4))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1dc))['removeClass']('active-time'),$('#podne_v')[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$('#ikindija_s')[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1e8))['addClass'](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1bd))[_0x34d9a0(0x1c9)]('active-time')),_0x2db12c>=countDownDate['getTime']()&&(setSati(jacija),setMinute(jacija),$('#ikindija_s')[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$('#ikindija_n')['removeClass']('active-time'),$('#ikindija_v')[_0x34d9a0(0x1e2)]('active-time'),$(_0x34d9a0(0x1ee))[_0x34d9a0(0x1c9)]('active-time'),$(_0x34d9a0(0x1e3))[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1ea))['addClass'](_0x34d9a0(0x1cf))),_0x2db12c>=countDownDate[_0x34d9a0(0x1f6)]()&&($('#aksam_s')[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1e3))[_0x34d9a0(0x1e2)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1ea))['removeClass']('active-time'),$('#jacija_s')[_0x34d9a0(0x1c9)](_0x34d9a0(0x1cf)),$(_0x34d9a0(0x1ed))[_0x34d9a0(0x1c9)]('active-time'),$('#jacija_v')['addClass']('active-time'),countDownDate[_0x34d9a0(0x1db)](countDownDate[_0x34d9a0(0x1cd)]()+0x1),setSati(zora),setMinute(zora));}function getTime(_0x199981){return _0x199981<0xa?'0'+_0x199981:_0x199981;}var x=setInterval(function(){var _0x47d160=_0x3fcfde,_0x12a7bc=new Date();_0x12a7bc=_0x12a7bc[_0x47d160(0x1f6)]();if(_0x12a7bc>=countDownDate)setAll(_0x12a7bc);var _0x553984=countDownDate-_0x12a7bc,_0x54df3b=Math[_0x47d160(0x1cb)](_0x553984%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c)),_0x5045e5=Math[_0x47d160(0x1cb)](_0x553984%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0x482696=Math[_0x47d160(0x1cb)](_0x553984%(0x3e8*0x3c)/0x3e8);_0x54df3b==0x0&&_0x5045e5<=0x9?$(_0x47d160(0x201))['addClass'](_0x47d160(0x1e1)):$(_0x47d160(0x201))[_0x47d160(0x1e2)](_0x47d160(0x1e1)),document[_0x47d160(0x1c3)](_0x47d160(0x1af))[_0x47d160(0x1b5)]=getTime(_0x54df3b)+':'+getTime(_0x5045e5)+':'+getTime(_0x482696),_0x553984<0x0&&clearInterval(x);},0x3e8);function GetLocation(_0x71e380){var _0x498a43=_0x3fcfde,_0x229cb5=_0x71e380[_0x498a43(0x1c6)];localStorage[_0x498a43(0x1bf)](_0x498a43(0x1ad),_0x229cb5),getPoziv(ucitajPodatke,_0x498a43(0x1f3)+_0x229cb5);}function DarkTheme(){var _0x4e57d0=_0x3fcfde;$(_0x4e57d0(0x1c1))[_0x4e57d0(0x1f0)](),$(_0x4e57d0(0x1e0))[_0x4e57d0(0x1f2)](),$('.dark')[_0x4e57d0(0x1c9)](_0x4e57d0(0x1c4)),$(_0x4e57d0(0x1e4))[_0x4e57d0(0x1c9)]('dark-theme'),$(_0x4e57d0(0x1d1))[_0x4e57d0(0x1c9)](_0x4e57d0(0x1b8)),$(_0x4e57d0(0x1df))['addClass'](_0x4e57d0(0x1b8)),$('#countdown')[_0x4e57d0(0x1c9)](_0x4e57d0(0x1b8)),$(_0x4e57d0(0x1f5))['addClass'](_0x4e57d0(0x1b8)),$(_0x4e57d0(0x1e7))[_0x4e57d0(0x1b0)](_0x4e57d0(0x1c0),_0x4e57d0(0x1f1));}function LightTheme(){var _0xb501bc=_0x3fcfde;$(_0xb501bc(0x1e0))[_0xb501bc(0x1f0)](),$(_0xb501bc(0x1c1))[_0xb501bc(0x1f2)](),$(_0xb501bc(0x1e4))[_0xb501bc(0x1e2)]('background-black'),$(_0xb501bc(0x1e4))[_0xb501bc(0x1e2)]('dark-theme'),$('#ayat_prayer_time')[_0xb501bc(0x1e2)](_0xb501bc(0x1b8)),$(_0xb501bc(0x1df))['removeClass']('color-white'),$(_0xb501bc(0x201))[_0xb501bc(0x1e2)](_0xb501bc(0x1b8)),$('#city')[_0xb501bc(0x1e2)](_0xb501bc(0x1b8)),$(_0xb501bc(0x1e7))[_0xb501bc(0x1b0)](_0xb501bc(0x1c0),'none');}$(_0x3fcfde(0x1c1))['on']('click',function(){var _0x499f18=_0x3fcfde;localStorage[_0x499f18(0x1bf)](_0x499f18(0x1b7),_0x499f18(0x1d6)),DarkTheme();}),$(_0x3fcfde(0x1e0))['on'](_0x3fcfde(0x1ce),function(){var _0x1539b4=_0x3fcfde;localStorage[_0x1539b4(0x1bf)](_0x1539b4(0x1b7),_0x1539b4(0x1fd)),LightTheme();});
+var zora, izlazak_sunca, podne, ikindija, aksam, jacija, sati, minute;
+var countDownDate = new Date();
+window.onload = function () {
+  var theme = localStorage.getItem("theme");
+  if(theme === null)
+    {
+      localStorage.setItem("theme", "dark");
+      theme = localStorage.getItem("theme");
+    }
+  if (theme === "dark")
+    DarkTheme();
+  else
+    LightTheme();
+
+  if (localStorage.getItem("location") === null) {
+    localStorage.setItem("location", 77);
+  }
+  else {
+    var value = localStorage.getItem("location");
+    var x = $('#locations option[value=' + value + ']').prop('selected', true);
+  }
+}
+
+function getPoziv(funk, url) {
+
+  var zahtjev = new XMLHttpRequest();
+  zahtjev.onload = function () {
+    if (zahtjev.status == 200) {
+      funk(JSON.parse(zahtjev.responseText));
+    }
+    else {
+      alert("Error " + zahtjev.statusText);
+    }
+  }
+
+  zahtjev.onerror = function () {
+    alert("Greška u komunikaciji sa serverom");
+  };
+
+  zahtjev.open("GET", url, true);
+  zahtjev.send(null);
+}
+if (localStorage.getItem("location") == null)
+  urlGetVaktija = 'https://api.vaktija.ba/vaktija/v1/77';
+else
+  urlGetVaktija = 'https://api.vaktija.ba/vaktija/v1/' + localStorage.getItem("location");
+
+getPoziv(ucitajPodatke, urlGetVaktija);
+
+function ucitajPodatke(obj) {
+  zora = obj.vakat[0];
+  izlazak_sunca = obj.vakat[1];
+  podne = obj.vakat[2];
+  ikindija = obj.vakat[3];
+  aksam = obj.vakat[4];
+  jacija = obj.vakat[5];
+
+  $("#jacija_s").addClass("active-time");
+  $("#jacija_n").addClass("active-time");
+  $("#jacija_v").addClass("active-time");
+
+  sati = zora.substring(0, zora.indexOf(":"));
+  minute = zora.substring(zora.indexOf(":") + 1);
+  countDownDate.setHours(sati);
+  countDownDate.setMinutes(minute);
+  countDownDate.setSeconds(0);
+
+  $("#city").html(obj.lokacija);
+  $("#date").html(obj.datum[1] + " / " + obj.datum[0]);
+  $("#date1").html(obj.datum[1]);
+  $("#date2").html(obj.datum[0]);
+  $("#zora_v").html(zora);
+  $("#izlazak_v").html(izlazak_sunca);
+  $("#podne_v").html(podne);
+  $("#ikindija_v").html(ikindija);
+  $("#aksam_v").html(aksam);
+  $("#jacija_v").html(jacija);
+
+}
+
+function setSati(s) {
+  sati = s.substring(0, s.indexOf(":"));
+  countDownDate.setHours(sati);
+}
+function setMinute(m) {
+  minute = m.substring(m.indexOf(":") + 1);
+  countDownDate.setMinutes(minute);
+
+}
+function setAll(now) {
+  if (now >= countDownDate.getTime()) {
+    setSati(izlazak_sunca);
+    setMinute(izlazak_sunca);
+    $("#jacija_s").removeClass("active-time");
+    $("#jacija_n").removeClass("active-time");
+    $("#jacija_v").removeClass("active-time");
+    $("#zora_s").addClass("active-time");
+    $("#zora_n").addClass("active-time");
+    $("#zora_v").addClass("active-time");
+
+  }
+  if (now >= countDownDate.getTime()) {
+    setSati(podne);
+    setMinute(podne);
+    $("#zora_s").removeClass("active-time");
+    $("#zora_n").removeClass("active-time");
+    $("#zora_v").removeClass("active-time");
+    $("#izlazak_s").addClass("active-time");
+    $("#izlazak_n").addClass("active-time");
+    $("#izlazak_v").addClass("active-time");
+  }
+
+  if (now >= countDownDate.getTime()) {
+
+    setSati(ikindija);
+    setMinute(ikindija);
+    $("#izlazak_s").removeClass("active-time");
+    $("#izlazak_n").removeClass("active-time");
+    $("#izlazak_v").removeClass("active-time");
+    $("#podne_s").addClass("active-time");
+    $("#podne_n").addClass("active-time");
+    $("#podne_v").addClass("active-time");
+
+  }
+
+  if (now >= countDownDate.getTime()) {
+
+    setSati(aksam);
+    setMinute(aksam);
+    $("#podne_s").removeClass("active-time");
+    $("#podne_n").removeClass("active-time");
+    $("#podne_v").removeClass("active-time");
+    $("#ikindija_s").addClass("active-time");
+    $("#ikindija_n").addClass("active-time");
+    $("#ikindija_v").addClass("active-time");
+
+  }
+  if (now >= countDownDate.getTime()) {
+    setSati(jacija);
+    setMinute(jacija);
+    $("#ikindija_s").removeClass("active-time");
+    $("#ikindija_n").removeClass("active-time");
+    $("#ikindija_v").removeClass("active-time");
+    $("#aksam_s").addClass("active-time");
+    $("#aksam_n").addClass("active-time");
+    $("#aksam_v").addClass("active-time");
+
+
+  }
+  if (now >= countDownDate.getTime()) {
+    $("#aksam_s").removeClass("active-time");
+    $("#aksam_n").removeClass("active-time");
+    $("#aksam_v").removeClass("active-time");
+    $("#jacija_s").addClass("active-time");
+    $("#jacija_n").addClass("active-time");
+    $("#jacija_v").addClass("active-time");
+
+    countDownDate.setDate(countDownDate.getDate() + 1);
+    setSati(zora);
+    setMinute(zora);
+
+  }
+
+}
+function getTime(h) {
+  return h < 10 ? "0" + h : h;
+}
+var x = setInterval(function () {
+  var now2 = new Date();
+  now2 = now2.getTime();
+  if (now2 >= countDownDate)
+    setAll(now2);
+  var distance = countDownDate - now2;
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  if (hours == 0 && minutes <= 9) {
+    $("#countdown").addClass("danger");
+  }
+  else{
+    $("#countdown").removeClass("danger");
+
+  }
+
+  document.getElementById("countdown").innerHTML = getTime(hours) + ":"
+    + getTime(minutes) + ":" + getTime(seconds);
+
+  if (distance < 0) {
+    clearInterval(x);
+  }
+}, 1000);
+
+function GetLocation(selected) {
+  var val = selected.value;
+  localStorage.setItem("location", val);
+  getPoziv(ucitajPodatke, 'https://api.vaktija.ba/vaktija/v1/' + val);
+}
+
+function DarkTheme() {
+  $("#dark_theme").hide();
+  $("#light-theme").show();
+  $(".dark").addClass("background-black");
+  $(".dark").addClass("dark-theme");
+  $("#ayat_prayer_time").addClass("color-white");
+  $("#date-wrapper").addClass("color-white");
+  $("#countdown").addClass("color-white");
+  $("#city").addClass("color-white");
+  $(".dark-header").css("border-bottom", "3px solid rgb(24, 210, 110)");
+}
+function LightTheme() {
+  $("#light-theme").hide();
+  $("#dark_theme").show();
+  $(".dark").removeClass("background-black");
+  $(".dark").removeClass("dark-theme");
+  $("#ayat_prayer_time").removeClass("color-white");
+  $("#date-wrapper").removeClass("color-white");
+  $("#countdown").removeClass("color-white");
+  $("#city").removeClass("color-white");
+  $(".dark-header").css("border-bottom", "none");
+}
+$("#dark_theme").on("click", function () {
+  localStorage.setItem("theme", "dark");
+  DarkTheme();
+});
+
+$("#light-theme").on("click", function () {
+  localStorage.setItem("theme", "light");
+  LightTheme();
+});
