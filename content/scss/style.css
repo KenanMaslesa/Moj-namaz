@@ -1389,9 +1389,25 @@ section {
   }
 }
 
+#vaktija {
+  padding: 85px 0 65px 0;
+}
+
 @media (max-width: 768px) {
   #vaktija {
     padding: 50px 0 65px 0 !important;
+  }
+}
+
+.prayer-time-index {
+  -webkit-clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+          clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+}
+
+@media (max-width: 768px) {
+  .prayer-time-index {
+    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+            clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
   }
 }
 
