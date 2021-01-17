@@ -110,6 +110,10 @@
   }
 }
 
+#locations {
+  text-align-last: center;
+}
+
 @media (max-width: 768px) {
   #locations {
     margin-top: 5px;
