@@ -374,7 +374,9 @@ section {
 }
 
 @media (max-width: 1023px) {
-  .fontSize, .tesbih, #tesbih-wrapper {
+  .fontSize,
+  .tesbih,
+  #tesbih-wrapper {
     display: none;
   }
 }
@@ -382,6 +384,23 @@ section {
 @media (max-width: 992px) {
   #quran {
     display: none;
+  }
+}
+
+audio {
+  margin: 15px;
+  outline: none;
+}
+
+#mobile-counter1,
+#mobile-counter2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  #mobile-counter1,
+  #mobile-counter2 {
+    display: block;
   }
 }
 /*# sourceMappingURL=general.css.map */

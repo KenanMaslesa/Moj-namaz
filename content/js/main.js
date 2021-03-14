@@ -284,3 +284,4 @@ if("serviceWorker" in navigator)
   })
   .catch(error => console.error(error));
 }
+

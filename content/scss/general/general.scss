@@ -326,15 +326,30 @@ section {
   overflow: hidden;
 }
 
-.fontSize,.tesbih, #tesbih-wrapper{
-  @media(max-width: 1023px)
-  {
-  display: none;
-}
+.fontSize,
+.tesbih,
+#tesbih-wrapper {
+  @media (max-width: 1023px) {
+    display: none;
+  }
 }
 
-#quran{
-  @media (max-width: 992px){
+#quran {
+  @media (max-width: 992px) {
     display: none;
+  }
+}
+
+audio {
+  margin: 15px;
+  outline: none;
+}
+
+#mobile-counter1,
+#mobile-counter2 {
+  display: none;
+
+  @media (max-width: 1023px) {
+    display: block;
   }
 }

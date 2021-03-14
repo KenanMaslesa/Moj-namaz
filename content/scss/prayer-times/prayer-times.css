@@ -26,7 +26,8 @@
 }
 
 .time-card:hover {
-  margin-top: -10px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 #location li a {
@@ -150,7 +151,8 @@
 
 @media (max-width: 768px) {
   .time-card:hover {
-    margin-top: 0px !important;
+    -webkit-transform: 0;
+            transform: 0;
   }
 }
 /*# sourceMappingURL=prayer-times.css.map */

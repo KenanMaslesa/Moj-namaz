@@ -1,20 +1,20 @@
 #vaktija {
-  padding:85px 0 65px 0; 
+  padding: 85px 0 65px 0;
   @media (max-width: 768px) {
     padding: 50px 0 65px 0 !important;
   }
 }
-.prayer-time-index{
+.prayer-time-index {
   clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
   @media (max-width: 768px) {
-    clip-path:polygon(0 3%, 100% 0, 100% 97%, 0 100%)
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
   }
 }
 .time-card {
   transition: all 0.5s ease;
 
   &:hover {
-    margin-top: -10px;
+    transform: translateY(-5px);
   }
 }
 
@@ -115,6 +115,6 @@
 }
 @media (max-width: 768px) {
   .time-card:hover {
-    margin-top: 0px !important;
+    transform: 0;
   }
 }

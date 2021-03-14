@@ -679,7 +679,9 @@ section {
 }
 
 @media (max-width: 1023px) {
-  .fontSize, .tesbih, #tesbih-wrapper {
+  .fontSize,
+  .tesbih,
+  #tesbih-wrapper {
     display: none;
   }
 }
@@ -687,6 +689,23 @@ section {
 @media (max-width: 992px) {
   #quran {
     display: none;
+  }
+}
+
+audio {
+  margin: 15px;
+  outline: none;
+}
+
+#mobile-counter1,
+#mobile-counter2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  #mobile-counter1,
+  #mobile-counter2 {
+    display: block;
   }
 }
 
@@ -1412,12 +1431,13 @@ section {
 }
 
 .time-card {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 .time-card:hover {
-  margin-top: -10px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 #location li a {
@@ -1541,7 +1561,8 @@ section {
 
 @media (max-width: 768px) {
   .time-card:hover {
-    margin-top: 0px !important;
+    -webkit-transform: 0;
+            transform: 0;
   }
 }
 
